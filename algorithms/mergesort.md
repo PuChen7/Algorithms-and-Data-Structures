@@ -66,3 +66,11 @@ int main(){
     return 0;
 }
 ```
+
+# Complexity
+The algorithm uses recursion.
+
+Recurrence Relation: T(n) = 2T(n/2) + \Theta(n)
+
+Big O: O(nlogn) for best/worst/average case
+

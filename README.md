@@ -16,3 +16,5 @@ All problems are solved by using Java.
 1. [Is Unique](/problems/is-unique.md)
 
 2. [Array Partition I](/problems/array-partition-1.md)
+
+3. [Search Insert Posision](/problems/search-insert-position.md)

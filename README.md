@@ -14,3 +14,5 @@ All questions are picked out from various resources such as [Leetcode](https://l
 All problems are solved by using Java.
 
 1. [Is Unique](/problems/is-unique.md)
+
+2. [Array Partition I](/problem/array-partition-1.md)

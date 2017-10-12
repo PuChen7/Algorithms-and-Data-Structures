@@ -1,4 +1,4 @@
-# Is Unique - Arrays and Strings - from [LeetCode](https://leetcode.com)
+# Array Partition I - from [LeetCode](https://leetcode.com)
 [View this problem on LeetCode](https://leetcode.com/problems/array-partition-i/description/)
 
 Given an array of 2n integers, your task is to group these integers into n pairs of integer, say (a1, b1), (a2, b2), ..., 

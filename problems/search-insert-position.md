@@ -1,4 +1,4 @@
-# Search Insert Posision - from [LeetCode](https://leetcode.com)
+# Search Insert Position - from [LeetCode](https://leetcode.com)
 [View this problem on LeetCode](https://leetcode.com/problems/search-insert-position/description/)
 
 Given a sorted array and a target value, return the index if the target is found. 

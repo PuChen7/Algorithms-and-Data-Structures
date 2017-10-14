@@ -18,3 +18,5 @@ All problems are solved by using Java.
 2. [Array Partition I](/problems/array-partition-1.md)
 
 3. [Search Insert Posision](/problems/search-insert-position.md)
+
+4. [Find All Duplicates In An Array](/problems/find-all-duplicates-in-an-array.md)

@@ -22,3 +22,5 @@ All problems are solved by using Java.
 4. [Find All Duplicates In An Array](/problems/find-all-duplicates-in-an-array.md)
 
 5. [Product of Array Except Self](/problems/product-of-array-except-self.md)
+
+6. [Search For A Range](/problems/SearchForARange.md)

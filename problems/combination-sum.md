@@ -72,6 +72,7 @@ public class Test {
 }
 ```
 Output of the tempList when `remain == 0`: 
+
 `[1, 1, 1, 1, 1, 1]
 
 [1, 1, 1, 1, 2]

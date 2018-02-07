@@ -24,3 +24,5 @@ All problems are solved by using Java.
 5. [Product of Array Except Self](/problems/product-of-array-except-self.md)
 
 6. [Search For A Range](/problems/SearchForARange.md)
+
+7. [Combination Sum](/problems/combination-sum.md)

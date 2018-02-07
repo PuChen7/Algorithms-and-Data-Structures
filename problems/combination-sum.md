@@ -37,7 +37,7 @@ private static void backtrack(List<List<Integer>> list, List<Integer> tempList, 
 }
 ```
 
-implementation:
+## Implementation:
 
 ```Java
 import java.util.*;
@@ -71,7 +71,7 @@ public class Test {
 	}
 }
 ```
-Output of the tempList when `remain == 0`: 
+## Output of the tempList when `remain == 0`: 
 `[1, 1, 1, 1, 1, 1]
 [1, 1, 1, 1, 2]
 [1, 1, 1, 3]

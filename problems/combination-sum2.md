@@ -35,7 +35,7 @@ class Solution {
 ```
 
 ## Improvement
-Instead of checking if the item exists in the list (`else if (remain == 0 && list.contains(tempList) == false)`), we can just skip the duplicates.
+Instead of checking if the item exists in the list `else if (remain == 0 && list.contains(tempList) == false)`, we can just skip the duplicates.
 ## Rewrite the `backtrack` method:
 
 ```Java
@@ -56,4 +56,5 @@ public void backtrack(List<List<Integer>> list, List<Integer> tempList, int[] ca
 
 ### Backtrack problems
 See other backtrack problems:
-[Combination Sum](problems/combination-sum.md)
+
+* [Combination Sum](problems/combination-sum.md)

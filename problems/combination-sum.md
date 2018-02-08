@@ -87,7 +87,9 @@ public class Test {
 [2, 4]
 [3, 3]`
 
-### Backtrack problems
+### Backtracking problems
 See other backtrack problems:
 
-* [Combination Sum II](problems/combination-sum2.md)
+* [Combination Sum II](combination-sum2.md)
+
+* [Subsets](subsets.md)

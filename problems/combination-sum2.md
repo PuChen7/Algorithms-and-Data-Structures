@@ -54,7 +54,9 @@ public void backtrack(List<List<Integer>> list, List<Integer> tempList, int[] ca
 }
 ```
 
-### Backtrack problems
+### Backtracking problems
 See other backtrack problems:
 
-* [Combination Sum](problems/combination-sum.md)
+* [Combination Sum](combination-sum.md)
+
+* [Subsets](subsets.md)

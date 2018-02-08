@@ -28,6 +28,6 @@ All problems are solved by using Java.
 #### Backtracking problems from 7 - 9 ([See analysis of backtracking technique](problems/backtracking.md))
 7. [Combination Sum](/problems/combination-sum.md) 
 
-8. [Combination Sum II](combination-sum2.md)
+8. [Combination Sum II](/problems/combination-sum2.md)
 
-9. [Subsets](subsets.md)
+9. [Subsets](problems/subsets.md)

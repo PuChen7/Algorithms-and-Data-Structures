@@ -17,8 +17,8 @@ This procedure is repeated over and over until you reach a final state. If you m
 
 ## Related Problems
 
-* [Combination Sum](problems/combination-sum.md)
+* [Combination Sum](/combination-sum.md)
 
-* [Combination Sum II](problems/combination-sum2.md)
+* [Combination Sum II](/combination-sum2.md)
 
 

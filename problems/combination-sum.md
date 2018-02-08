@@ -37,6 +37,10 @@ private static void backtrack(List<List<Integer>> list, List<Integer> tempList, 
 }
 ```
 
+### Analysis
+
+The algorithm tries all possible paths, but it immediately eliminates the bad solution in the checking process.
+
 ## Implementation:
 
 ```Java

@@ -82,3 +82,7 @@ public class Test {
 [2, 2, 2]
 [2, 4]
 [3, 3]`
+
+### Backtrack problems
+See other backtrack problems:
+[Combination Sum](problems/combination-sum2.md)

@@ -26,3 +26,5 @@ All problems are solved by using Java.
 6. [Search For A Range](/problems/SearchForARange.md)
 
 7. [Combination Sum](/problems/combination-sum.md)
+
+8. [Combination Sum II](/problems/combination-sum2.md)

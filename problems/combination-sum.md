@@ -85,4 +85,4 @@ public class Test {
 
 ### Backtrack problems
 See other backtrack problems:
-[Combination Sum](problems/combination-sum2.md)
+[Combination Sum II](problems/combination-sum2.md)

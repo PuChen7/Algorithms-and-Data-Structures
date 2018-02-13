@@ -11,8 +11,6 @@ All numbers (including target) will be positive integers.
 
 The solution set must not contain duplicate combinations.
 
-For example, given candidate set [2, 3, 6, 7] and target 7, 
-
 ```java
 public static List<List<Integer>> combinationSum(int[] nums, int target) {
     List<List<Integer>> list = new ArrayList<>();

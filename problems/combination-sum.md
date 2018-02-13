@@ -92,3 +92,5 @@ See other backtrack problems:
 * [Subsets](subsets.md)
 
 * [Subsets II](subsets2.md)
+
+* [Permutations](permutations.md)

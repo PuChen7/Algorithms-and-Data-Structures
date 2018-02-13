@@ -27,7 +27,6 @@ All problems are solved by using Java.
 
 #### Backtracking problems from 7 - 11 ([See analysis of backtracking technique](algorithms/backtracking.md))
 7. [Combination Sum](/problems/combination-sum.md) 
-
 8. [Combination Sum II](/problems/combination-sum2.md)
 
 9. [Subsets](problems/subsets.md)

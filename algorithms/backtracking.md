@@ -50,4 +50,8 @@ This procedure is repeated over and over until you reach a final state. If you m
 
 * [Subsets II](subsets2.md)
 
+* [Permutations](permutations.md)
+
+* [Permutations II](permutations2.md)
+
 

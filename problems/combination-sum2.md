@@ -64,3 +64,5 @@ See other backtrack problems:
 * [Subsets II](subsets2.md)
 
 * [Permutations](permutations.md)
+
+* [Permutations II](permutations2.md)

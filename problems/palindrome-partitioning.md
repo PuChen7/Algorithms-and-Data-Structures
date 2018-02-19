@@ -50,6 +50,8 @@ See other backtrack problems:
 
 * [Combination Sum II](combination-sum2.md)
 
+* [Combination Sum III](combination-sum3.md)
+
 * [Subsets](subsets.md)
 
 * [Subsets II](subsets2.md)

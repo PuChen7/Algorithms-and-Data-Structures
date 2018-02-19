@@ -54,4 +54,6 @@ This procedure is repeated over and over until you reach a final state. If you m
 
 * [Permutations II](permutations2.md)
 
+* [Palindrome Partitioning](palindrome-partitioning.md)
+
 

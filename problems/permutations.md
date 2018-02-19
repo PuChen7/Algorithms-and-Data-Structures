@@ -49,3 +49,5 @@ See other backtrack problems:
 * [Subsets II](subsets2.md)
 
 * [Permutations II](permutations2.md)
+
+* [Palindrome Partitioning](palindrome-partitioning.md)

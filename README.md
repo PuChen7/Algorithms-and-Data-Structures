@@ -26,3 +26,4 @@ All problems are solved by using Java.
 10. [Subsets II](problems/subsets2.md)
 11. [Permutations](problems/permutations.md)
 12. [Permutations II](problems/permutations2.md)
+13. [Palindrome Partitioning](problems/palindrome-partitioning.md)

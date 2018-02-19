@@ -66,3 +66,5 @@ See other backtrack problems:
 * [Permutations](permutations.md)
 
 * [Permutations II](permutations2.md)
+
+* [Palindrome Partitioning](palindrome-partitioning.md)

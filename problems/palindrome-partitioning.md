@@ -61,3 +61,5 @@ See other backtrack problems:
 * [Permutations II](permutations2.md)
 
 * [Combination](combination.md)
+
+* [Sudoku Solver](sudoku-solver.md)

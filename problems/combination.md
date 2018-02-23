@@ -59,3 +59,5 @@ See other backtrack problems:
 * [Permutations II](permutations2.md)
 
 * [Palindrome Partitioning](palindrome-partitioning.md)
+
+* [Sudoku Solver](sudoku-solver.md)

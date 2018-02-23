@@ -29,3 +29,4 @@ All problems are solved by using Java.
 13. [Palindrome Partitioning](problems/palindrome-partitioning.md)
 14. [Combination](problems/combination.md)
 15. [Combination Sum III](problems/combination-sum3.md)
+16. [Sudoku Solver](problems/sudoku-solver.md)

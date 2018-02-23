@@ -31,3 +31,4 @@ All problems are solved by using Java.
 15. [Combination Sum III](problems/combination-sum3.md)
 16. [Sudoku Solver](problems/sudoku-solver.md)
 17. [Generate Parentheses](problems/generate-parentheses.md)
+18. [Two Sum](problems/two-sum.md)

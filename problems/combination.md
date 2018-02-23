@@ -61,3 +61,5 @@ See other backtrack problems:
 * [Palindrome Partitioning](palindrome-partitioning.md)
 
 * [Sudoku Solver](sudoku-solver.md)
+
+* [Generate Parentheses](generate-parentheses.md)

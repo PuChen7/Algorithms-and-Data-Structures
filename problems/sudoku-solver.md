@@ -70,3 +70,5 @@ See other backtrack problems:
 * [Palindrome Partitioning](palindrome-partitioning.md)
 
 * [Combination](combination.md)
+
+* [Generate Parentheses](generate-parentheses.md)

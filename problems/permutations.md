@@ -57,3 +57,5 @@ See other backtrack problems:
 * [Combination](combination.md)
 
 * [Sudoku Solver](sudoku-solver.md)
+
+* [Generate Parentheses](generate-parentheses.md)

@@ -62,4 +62,6 @@ This procedure is repeated over and over until you reach a final state. If you m
 
 * [Sudoku Solver](sudoku-solver.md)
 
+* [Generate Parentheses](generate-parentheses.md)
+
 

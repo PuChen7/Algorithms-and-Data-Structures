@@ -19,7 +19,7 @@ All problems are solved by using Java.
 4. [Find All Duplicates In An Array](/problems/find-all-duplicates-in-an-array.md)
 5. [Product of Array Except Self](/problems/product-of-array-except-self.md)
 6. [Search For A Range](/problems/SearchForARange.md)
-#### Backtracking problems from 7 - 15 ([See analysis of backtracking technique](algorithms/backtracking.md))
+#### Backtracking problems from 7 - 17 ([See analysis of backtracking technique](algorithms/backtracking.md))
 7. [Combination Sum](/problems/combination-sum.md) 
 8. [Combination Sum II](/problems/combination-sum2.md)
 9. [Subsets](problems/subsets.md)
@@ -30,3 +30,4 @@ All problems are solved by using Java.
 14. [Combination](problems/combination.md)
 15. [Combination Sum III](problems/combination-sum3.md)
 16. [Sudoku Solver](problems/sudoku-solver.md)
+17. [Generate Parentheses](problems/generate-parentheses.md)

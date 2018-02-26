@@ -37,3 +37,4 @@ All problems are solved by using Java.
 21. [Next Permutation](problems/next-permutation.md)
 22. [Permutation Sequence](problems/permutation-sequence.md)
 23. [Jewels and Stones](problems/jewels-and-stones.md)
+24. [Toeplitz Matrix](problems/toeplitz-matrix.md)

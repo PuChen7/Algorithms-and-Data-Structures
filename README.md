@@ -33,3 +33,4 @@ All problems are solved by using Java.
 17. [Generate Parentheses](problems/generate-parentheses.md)
 18. [Two Sum](problems/two-sum.md)
 19. [Three Sum](problems/three-sum.md)
+20. [Four Sum](problems/four-sum.md)

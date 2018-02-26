@@ -34,3 +34,4 @@ All problems are solved by using Java.
 18. [Two Sum](problems/two-sum.md)
 19. [Three Sum](problems/three-sum.md)
 20. [Four Sum](problems/four-sum.md)
+21. [Next Permutation](problems/next-permutation.md)

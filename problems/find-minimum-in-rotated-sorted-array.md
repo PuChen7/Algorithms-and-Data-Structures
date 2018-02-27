@@ -21,7 +21,7 @@ class Solution {
             int mid = (lo+hi)/2;
             if (mid > 0 && nums[mid] < nums[mid-1])    // e.g. [6,7,1,2,3,4]
                 return nums[mid];
-            if (nums[mid] >= nums[lo] && nums[mid] > nums[hi])   // e.g. [4,5,6,7,1,2,3]. why nums[mid] >= nums[lo]
+            if (nums[mid] > nums[hi])   // e.g. [4,5,6,7,1,2,3]
                 lo = mid + 1;
             else
                 hi = mid - 1;

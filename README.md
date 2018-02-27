@@ -7,6 +7,8 @@ This summary is for further learning purpose.
 All algorithms should be tested and 100% correct.
 
 1. [Merge Sort](/algorithms/mergesort.md)
+2. [Binary Search](algorithms/binaey-search.md)
+3. [Backtracking](algorithms/backtracking.md)
 
 ## Algorithm Problems
 This is a collection of algorithm problems which can be taken as a preparation for coding interviews. 

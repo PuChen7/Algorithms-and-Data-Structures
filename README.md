@@ -42,3 +42,4 @@ All problems are solved by using Java.
 24. [Toeplitz Matrix](problems/toeplitz-matrix.md)
 25. [Reshape the Matrix](problems/reshape-the-matrix.md)
 26. [Find Minimum in Rotated Sorted Array](problems/find-minimum-in-rotated-sorted-array.md)
+27. [Move Zeros](problems/move-zeros.md)

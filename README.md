@@ -43,3 +43,4 @@ All problems are solved by using Java.
 25. [Reshape the Matrix](problems/reshape-the-matrix.md)
 26. [Find Minimum in Rotated Sorted Array](problems/find-minimum-in-rotated-sorted-array.md)
 27. [Move Zeros](problems/move-zeros.md)
+28. [Majority Element](problems/majority-element.md)

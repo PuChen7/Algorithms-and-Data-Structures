@@ -45,3 +45,4 @@ All problems are solved by using Java.
 27. [Move Zeros](problems/move-zeros.md)
 28. [Majority Element](problems/majority-element.md)
 29. [Reverse String](problems/reverse-string.md)
+30. [Max Consecutive Ones](problems/max-consecutive-ones.md)

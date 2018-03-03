@@ -1,0 +1,52 @@
+# Array Nesting - from [LeetCode](https://leetcode.com)
+[View this problem on LeetCode](https://leetcode.com/problems/array-nesting/description/)
+
+A zero-indexed array A of length N contains all integers from 0 to N-1. Find and return the longest length of set S, where S[i] = {A[i], A[A[i]], A[A[A[i]]], ... } subjected to the rule below.
+
+Suppose the first element in S starts with the selection of element A[i] of index = i, the next element in S should be A[A[i]], and then A[A[A[i]]]… By that analogy, we stop adding right before a duplicate element occurs in S.
+
+Example 1:
+Input: A = [5,4,0,3,1,6,2]
+
+Output: 6
+
+Explanation: 
+
+A[0] = 5, A[1] = 4, A[2] = 0, A[3] = 3, A[4] = 1, A[5] = 6, A[6] = 2.
+
+One of the longest S[K]:
+
+S[0] = {A[0], A[5], A[6], A[2]} = {5, 6, 2, 0}
+
+Note:
+N is an integer within the range [1, 20,000].
+The elements of A are all distinct.
+Each element of A is an integer within the range [0, N-1].
+
+## My Solution
+```java
+class Solution {
+    public int arrayNesting(int[] nums) {
+        if (nums.length == 1)
+            return 1;
+        int[] visited = new int[nums.length];
+        int max = 0;
+        for (int i = 0; i < nums.length; i++){
+            int size = 0;
+            for (int j = i; visited[j] >= 0; size++){
+                visited[j] = -1;
+                j = nums[j];
+            }
+            max = Integer.max(size, max);
+        }
+        return max;
+    }
+}
+```
+
+## Complexity
+Time Complexity: O(n)
+
+Space Complexity: O(n)
+
+Created a visited array to record visited element. It helps to prevent polluting the original array.

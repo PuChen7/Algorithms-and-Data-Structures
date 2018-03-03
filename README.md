@@ -46,3 +46,4 @@ All problems are solved by using Java.
 28. [Majority Element](problems/majority-element.md)
 29. [Reverse String](problems/reverse-string.md)
 30. [Max Consecutive Ones](problems/max-consecutive-ones.md)
+31. [Array Nesting](problems/array-nesting.md)

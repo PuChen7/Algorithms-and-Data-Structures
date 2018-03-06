@@ -47,3 +47,4 @@ All problems are solved by using Java.
 29. [Reverse String](problems/reverse-string.md)
 30. [Max Consecutive Ones](problems/max-consecutive-ones.md)
 31. [Array Nesting](problems/array-nesting.md)
+32. [Letter Combinations of a Phone Number](problems/letter-combinations-of-a-phone-number.md)

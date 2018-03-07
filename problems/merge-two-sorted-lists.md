@@ -59,7 +59,7 @@ class Solution {
 
 ## My Solution - Improved Version II
 
-* Checking of which list is null is put on the top;
+* Checking of which list is null is put on the top.
 * No need to create node at each iteration. Just make the next equals to the l1 or l2.
 * Note to return `res.next`
 
@@ -74,8 +74,6 @@ class Solution {
  */
 class Solution {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
-        if (l1 == null && l2 == null)
-            return null;
         if (l1 == null) return l2;
         if (l2 == null) return l1;
         ListNode res = new ListNode(0);
@@ -100,5 +98,24 @@ class Solution {
 }
 ```
 
+## My Solution - Version III using recursion (Not recommended for practical use)
+
+this code is actually a stack structured recursive method. Thus it will use extra space, possible risk of stack overflow.
+
+```java
+class Solution {
+    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+        if(l1 == null) return l2;
+		if(l2 == null) return l1;
+		if(l1.val < l2.val){
+			l1.next = mergeTwoLists(l1.next, l2);
+			return l1;
+		} else{
+			l2.next = mergeTwoLists(l1, l2.next);
+			return l2;
+		}
+    }
+}
+```
 ## Complexity
 Time Complexity: O(n)

@@ -33,6 +33,7 @@ All problems are solved by using Java.
 15. [Combination Sum III](problems/combination-sum3.md)
 16. [Sudoku Solver](problems/sudoku-solver.md)
 17. [Generate Parentheses](problems/generate-parentheses.md)
+#### Array
 18. [Two Sum](problems/two-sum.md)
 19. [Three Sum](problems/three-sum.md)
 20. [Four Sum](problems/four-sum.md)
@@ -48,3 +49,5 @@ All problems are solved by using Java.
 30. [Max Consecutive Ones](problems/max-consecutive-ones.md)
 31. [Array Nesting](problems/array-nesting.md)
 32. [Letter Combinations of a Phone Number](problems/letter-combinations-of-a-phone-number.md)
+#### Linked List
+33. [Remove Duplicates from Sorted List](remove-duplicates-from-sorted-list.md)

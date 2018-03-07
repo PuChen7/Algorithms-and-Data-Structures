@@ -51,3 +51,4 @@ All problems are solved by using Java.
 32. [Letter Combinations of a Phone Number](problems/letter-combinations-of-a-phone-number.md)
 #### Linked List
 33. [Remove Duplicates from Sorted List](problems/remove-duplicates-from-sorted-list.md)
+34. [Reverse Linked List](problems/reverse-linked-list.md)

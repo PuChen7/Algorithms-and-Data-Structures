@@ -52,3 +52,4 @@ All problems are solved by using Java.
 #### Linked List
 33. [Remove Duplicates from Sorted List](problems/remove-duplicates-from-sorted-list.md)
 34. [Reverse Linked List](problems/reverse-linked-list.md)
+35. [Merge Two Sorted Lists](problems/merge-two-sorted-lists.md)

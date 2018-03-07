@@ -57,5 +57,48 @@ class Solution {
 }
 ```
 
+## My Solution - Improved Version II
+
+* Checking of which list is null is put on the top;
+* No need to create node at each iteration. Just make the next equals to the l1 or l2.
+* Note to return `res.next`
+
+```java
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) { val = x; }
+ * }
+ */
+class Solution {
+    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+        if (l1 == null && l2 == null)
+            return null;
+        if (l1 == null) return l2;
+        if (l2 == null) return l1;
+        ListNode res = new ListNode(0);
+        ListNode curr = res;
+        while (l1 != null && l2 != null){
+            if (l1.val <= l2.val){
+                curr.next = l1;
+                l1 = l1.next;
+            }else{
+                curr.next = l2;
+                l2 = l2.next;
+            }
+            curr = curr.next;
+        }
+        if (l1 != null){
+            curr.next = l1;
+        }else if (l2 != null){
+            curr.next = l2;
+        }
+        return res.next;    // res is 0 so return the next node
+    }
+}
+```
+
 ## Complexity
 Time Complexity: O(n)

@@ -3,7 +3,7 @@
 
 Given a linked list, determine if it has a cycle in it.
 
-## My Solution - Version I
+## My Solution
 ```java
 /**
  * Definition for singly-linked list.
@@ -32,6 +32,7 @@ public class Solution {
     }
 }
 ```
+
 ## Complexity
 n is the length of non-cyclic length
 

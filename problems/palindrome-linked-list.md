@@ -46,4 +46,4 @@ class Solution {
 ```
 
 ## Complexity
-Time Complexity: O(n+k) = O(n)
+Time Complexity: O(n)

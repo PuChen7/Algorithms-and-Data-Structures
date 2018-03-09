@@ -55,3 +55,4 @@ All problems are solved by using Java.
 35. [Merge Two Sorted Lists](problems/merge-two-sorted-lists.md)
 36. [Linked List Cycle](problems/linked-list-cycle.md)
 37. [Palindrome Linked List](problems/palindrome-linked-list.md)
+38. [Remove Linked List Elements](problems/remove-linked-list-elements.md)

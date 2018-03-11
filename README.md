@@ -57,3 +57,4 @@ All problems are solved by using Java.
 37. [Palindrome Linked List](problems/palindrome-linked-list.md)
 38. [Remove Linked List Elements](problems/remove-linked-list-elements.md)
 39. [Intersection of Two Linked Lists](problems/intersection-of-two-linked-lists.md)
+40. [Split Linked List in Parts](problems/split-linked-list-in-parts.md)

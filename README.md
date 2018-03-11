@@ -58,3 +58,4 @@ All problems are solved by using Java.
 38. [Remove Linked List Elements](problems/remove-linked-list-elements.md)
 39. [Intersection of Two Linked Lists](problems/intersection-of-two-linked-lists.md)
 40. [Split Linked List in Parts](problems/split-linked-list-in-parts.md)
+41. [Remove Nth Node From End of List](problems/remove-nth-node-from-end-of-list.md)

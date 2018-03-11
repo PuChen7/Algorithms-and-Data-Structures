@@ -60,3 +60,4 @@ All problems are solved by using Java.
 40. [Split Linked List in Parts](problems/split-linked-list-in-parts.md)
 41. [Remove Nth Node From End of List](problems/remove-nth-node-from-end-of-list.md)
 42. [Swap Nodes in Pairs](problems/swap-nodes-in-pairs.md)
+43. [Insertion Sort List](problems/insertion-sort-list.md)

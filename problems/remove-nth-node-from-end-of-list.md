@@ -1,7 +1,5 @@
 # Remove Nth Node From End of List - from [LeetCode](https://leetcode.com)
-[View this problem on LeetCode](https://leetcode.com/problems/split-linked-list-in-parts/description/)
-
-
+[View this problem on LeetCode](https://leetcode.com/problems/remove-nth-node-from-end-of-list/solution/)
 
 ## Solution - Version I
 ```java

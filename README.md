@@ -61,3 +61,4 @@ All problems are solved by using Java.
 41. [Remove Nth Node From End of List](problems/remove-nth-node-from-end-of-list.md)
 42. [Swap Nodes in Pairs](problems/swap-nodes-in-pairs.md)
 43. [Insertion Sort List](problems/insertion-sort-list.md)
+44. [Reverse Linked List II](problems/reverse-linked-list-2.md)

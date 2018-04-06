@@ -50,6 +50,7 @@ All problems are solved by using Java.
 31. [Array Nesting](problems/array-nesting.md)
 32. [Letter Combinations of a Phone Number](problems/letter-combinations-of-a-phone-number.md)
 33. [Rotate Array](problems/rotate-array.md)
+34. [Find All Numbers Disappeared in an Array](problems/find-all-numbers-disappeared-in-an-array.md)
 #### Linked List
 33. [Remove Duplicates from Sorted List](problems/remove-duplicates-from-sorted-list.md)
 34. [Reverse Linked List](problems/reverse-linked-list.md)

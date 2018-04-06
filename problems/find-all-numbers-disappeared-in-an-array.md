@@ -1,35 +1,31 @@
-# Find All Numbers Disappeared in an Array - from [LeetCode](https://leetcode.com)
-[View this problem on LeetCode](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/)
+# Two Sum II - Input array is sorted - from [LeetCode](https://leetcode.com)
+[View this problem on LeetCode](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)
 
-Given an array of integers where 1 ≤ a[i] ≤ n (n = size of array), some elements appear twice and others appear once.
+Given an array of integers that is already sorted in ascending order, find two numbers such that they add up to a specific target number.
 
-Find all the elements of [1, n] inclusive that do not appear in this array.
+The function twoSum should return indices of the two numbers such that they add up to the target, where index1 must be less than index2. Please note that your returned answers (both index1 and index2) are not zero-based.
 
-Could you do it without extra space and in O(n) runtime? You may assume the returned list does not count as extra space.
+You may assume that each input would have exactly one solution and you may not use the same element twice.
 
-Example:
+Input: numbers={2, 7, 11, 15}, target=9
 
-Input:
-[4,3,2,7,8,2,3,1]
-
-Output:
-[5,6]
+Output: index1=1, index2=2
 
 ## My Solution - Version I
 ```java
 class Solution {
-    public List<Integer> findDisappearedNumbers(int[] nums) {
-        List<Integer> res = new ArrayList<Integer>();
-        
-        for (int i = 0; i < nums.length; i++){
-            int val = Math.abs(nums[i]) - 1;
-            if (nums[val] > 0)
-                nums[val] = -(nums[val]);
-        }
-        
-        for (int i = 0; i < nums.length; i++){
-            if (nums[i] > 0)
-                res.add(i+1);
+    public int[] twoSum(int[] numbers, int target) {
+        int[] res = new int[2];
+        if (numbers == null || numbers.length < 2) return numbers;
+        int lo = 0;
+        int hi = numbers.length - 1;
+        while (lo < hi){
+            if (target == numbers[lo] + numbers[hi]){
+                res[0] = lo + 1;
+                res[1] = hi + 1;
+                return res;
+            } else if (target > numbers[lo] + numbers[hi]) lo++;
+            else hi--;
         }
         return res;
     }
@@ -37,5 +33,3 @@ class Solution {
 ```
 
 Time Complexity: O(n)
-
-Space Complexity: O(1)

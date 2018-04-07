@@ -53,6 +53,7 @@ All problems are solved by using Java.
 34. [Find All Numbers Disappeared in an Array](problems/find-all-numbers-disappeared-in-an-array.md)
 35. [Two Sum II - Input array is sorted](problems/two-sum-2-Input-array-is-sorted.md)
 36. [Largest Number At Least Twice of Others](problems/largest-number-at-least-twice-of-others.md)
+37. [Plus One](problems/plus-one.md)
 #### Linked List
 33. [Remove Duplicates from Sorted List](problems/remove-duplicates-from-sorted-list.md)
 34. [Reverse Linked List](problems/reverse-linked-list.md)

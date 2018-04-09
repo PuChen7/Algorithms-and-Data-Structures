@@ -55,6 +55,7 @@ All problems are solved by using Java.
 36. [Largest Number At Least Twice of Others](problems/largest-number-at-least-twice-of-others.md)
 37. [Plus One](problems/plus-one.md)
 38. [Find the Duplicate Number](problems/find-the-duplicate-number.md)
+39. [Best Time to Buy and Sell Stock](problems/best-time-to-buy-and-sell-stock.md)
 #### Linked List
 39. [Remove Duplicates from Sorted List](problems/remove-duplicates-from-sorted-list.md)
 40. [Reverse Linked List](problems/reverse-linked-list.md)

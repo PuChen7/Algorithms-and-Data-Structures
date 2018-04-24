@@ -6,6 +6,8 @@ This is a collection of data structures and algorithms which I learned in my aca
 This summary is for further learning purpose.
 All algorithms should be tested and 100% correct.
 
+[Algorithms and Data Structures](/algorithms/algo.md)
+
 1. [Merge Sort](/algorithms/mergesort.md)
 2. [Binary Search](algorithms/binaey-search.md)
 3. [Backtracking](algorithms/backtracking.md)

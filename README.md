@@ -70,3 +70,4 @@ All problems are solved by using Java.
 49. [Insertion Sort List](problems/insertion-sort-list.md)
 50. [Reverse Linked List II](problems/reverse-linked-list-2.md)
 51. [Linked List Cycle II](problems/linked-list-cycle-2.md)
+52. [Add Two Numbers](problems/add-two-numbers.md)

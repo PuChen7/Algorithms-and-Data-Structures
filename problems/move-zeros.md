@@ -50,12 +50,12 @@ class Solution {
 ```java 
 class Solution {
     public void moveZeroes(int[] nums) {
-       // keeps the index of last non zero element
-		int lastNonZero = 0;
+        // keeps the index of last non zero element
+        int lastNonZero = 0;
 		
 		// if the number is non zero, add at lastNonZero, then increment lastNonZero
 		for (int i = 0; i < nums.length; i++) {
-			if (nums[i] != 0) {
+            if (nums[i] != 0) {
 				nums[lastNonZero] = nums[i];
 				lastNonZero++;
 			}
@@ -74,17 +74,17 @@ Worst Case: [0,0,0,...,0,1] -> Needs n-1 times to write 0
 ```java
 class Solution {
     public void moveZeroes(int[] nums) {
-       // keeps the index of last non zero element
-		int lastNonZero = 0;
-		
-		// if the number is non zero, swap
-		for (int i = 0; i < nums.length; i++) {
-			if (nums[i] != 0) {
+        // keeps the index of last non zero element
+        int lastNonZero = 0;
+        
+        // if the number is non zero, swap
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] != 0) {
                 int tmp = nums[lastNonZero];
 				nums[lastNonZero] = nums[i];
                 nums[i] = tmp;
 				lastNonZero++;
-			}
+            }
 		}
     }
 }

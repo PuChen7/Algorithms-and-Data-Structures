@@ -62,4 +62,11 @@ class Solution {
 }
 ```
 
-Time Complexity: O(max(m,n))
+## Complexity
+`Time Complexity: O(max(m,n))`
+
+Assume list1 has length m, list2 has length n, then the algorithm iterates at most max(m,n) times.
+
+The length of the new list is at most max(m, n) + 1
+
+`Space Complexity: max(m,n)`

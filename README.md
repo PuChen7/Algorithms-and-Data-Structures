@@ -78,3 +78,4 @@ All problems are solved by using Java.
 4. [Add Two Numbers](problems/add-two-numbers.md)
 5. [Pow(x, n)](problems/pow.md)
 6. [Min Stack](problems/min-stack.md)
+7. [Validate Binary Search Tree](problems/validate-binary-search-tree.md)

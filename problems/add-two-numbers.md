@@ -25,24 +25,39 @@ Explanation: 342 + 465 = 807.
  */
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        ListNode dummyhead = new ListNode(0);
-        ListNode list1 = l1, list2 = l2, curr = dummyhead;
+        // check edge case
+        if (l1 == null && l2 == null)
+            return null;
+        
+        ListNode dummy = new ListNode(0);
+        ListNode list1 =l1, list2 = l2, curr = dummy;
         int carry = 0;
         
         while (list1 != null || list2 != null){
-            int x = (list1 != null) ? list1.val : 0;
-            int y = (list2 != null) ? list2.val : 0;
-            int sum = carry + x + y;
-            carry = sum / 10;
-            curr.next = new ListNode(sum%10);
+            // if list1 not null, get the value
+            int x = 0;
+            if (list1 != null)
+                x = list1.val;
+            // if list2 not null, get the value
+            int y = 0;
+            if (list2 != null)
+                y = list2.val;
+            
+            int sum = x + y + carry;    // get sum
+            carry = sum / 10;   // recalculate carry
+            curr.next = new ListNode(sum%10);   // assign digit in tens place
             curr = curr.next;
+            
+            // increment two lists
             if (list1 != null) list1 = list1.next;
             if (list2 != null) list2 = list2.next;
         }
+        
+        // if carry not zero, need a new node to hold the digit
         if (carry != 0){
             curr.next = new ListNode(carry);
         }
-        return dummyhead.next;
+        return dummy.next;
     }
 }
 ```

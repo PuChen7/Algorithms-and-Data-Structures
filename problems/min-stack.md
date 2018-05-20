@@ -42,13 +42,13 @@ class MinStack {
 }
 ```
 
-## Notes
+### Notes
 Few things to note:
 * is there a top limit for stack?
 * negative or float number in stack?
 * to compare, use `.equals()`. `if (stack.pop().equals(minStack.peek()))`
 
-## Worst Space Complexity
+### Worst Space Complexity
 input in descending order: [4,3,2,1], then two stacks will have the same elements
 
 ## Solution II - using Node

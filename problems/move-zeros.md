@@ -52,19 +52,19 @@ class Solution {
     public void moveZeroes(int[] nums) {
         // keeps the index of last non zero element
         int lastNonZero = 0;
-		
-		// if the number is non zero, add at lastNonZero, then increment lastNonZero
-		for (int i = 0; i < nums.length; i++) {
+        
+        // if the number is non zero, add at lastNonZero, then increment lastNonZero
+        for (int i = 0; i < nums.length; i++) {
             if (nums[i] != 0) {
-				nums[lastNonZero] = nums[i];
-				lastNonZero++;
-			}
-		}
-		
+                nums[lastNonZero] = nums[i];
+                lastNonZero++;
+            }
+        }
+        
         // set the remaining spot to zeros
-		for (int i = lastNonZero; i < nums.length; i++) {
-			nums[i] = 0;
-		}
+        for (int i = lastNonZero; i < nums.length; i++) {
+            nums[i] = 0;
+        }
     }
 }
 ```
@@ -81,11 +81,11 @@ class Solution {
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] != 0) {
                 int tmp = nums[lastNonZero];
-				nums[lastNonZero] = nums[i];
+                nums[lastNonZero] = nums[i];
                 nums[i] = tmp;
-				lastNonZero++;
+                lastNonZero++;
             }
-		}
+        }
     }
 }
 ```

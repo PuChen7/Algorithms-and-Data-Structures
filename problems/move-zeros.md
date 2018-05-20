@@ -70,7 +70,7 @@ class Solution {
 ```
 Worst Case: [0,0,0,...,0,1] -> Needs n-1 times to write 0
 
-## Solution III - Optimal (O(n) Time Complexity, O(1) Space Complexity, reduced number of operations than Solution II)
+## Solution III - Optimal
 ```java
 class Solution {
     public void moveZeroes(int[] nums) {
@@ -89,3 +89,4 @@ class Solution {
     }
 }
 ```
+O(n) Time Complexity, O(1) Space Complexity, reduced number of operations than Solution II

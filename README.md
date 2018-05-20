@@ -76,3 +76,4 @@ All problems are solved by using Java.
 2. [Best Time to Buy and Sell Stock](problems/best-time-to-buy-and-sell-stock.md)
 3. [Move Zeroes](problems/move-zeros.md)
 4. [Add Two Numbers](problems/add-two-numbers.md)
+5. [Pow(x, n)](problems/pow.md)

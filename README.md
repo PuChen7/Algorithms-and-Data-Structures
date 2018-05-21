@@ -79,3 +79,4 @@ All problems are solved by using Java.
 5. [Pow(x, n)](problems/pow.md)
 6. [Min Stack](problems/min-stack.md)
 7. [Validate Binary Search Tree](problems/validate-binary-search-tree.md)
+8. [Longest Substring Without Repeating Characters](problems/longest-substring-without-repeating-characters.md)

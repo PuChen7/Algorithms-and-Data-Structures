@@ -81,3 +81,4 @@ All problems are solved by using Java.
 7. [Validate Binary Search Tree](problems/validate-binary-search-tree.md)
 8. [Longest Substring Without Repeating Characters](problems/longest-substring-without-repeating-characters.md)
 9. [Reverse Words in a String](problems/reverse-words-in-a-string.md)
+10. [Sqrt(x)](problems/sqrt.md)

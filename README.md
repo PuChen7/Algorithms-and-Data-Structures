@@ -94,3 +94,4 @@ All problems are solved by using Java.
 20. [Valid Parentheses](problems/valid-parentheses.md)
 21. [Merge Sorted Array](problems/merge-sorted-array.md)
 22. [Implement Stack using Queues](problems/implement-stack-using-queues.md)
+23. [Remove Duplicates from Sorted Array](problems/remove-duplicates-from-sorted-array.md)

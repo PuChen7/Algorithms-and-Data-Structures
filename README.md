@@ -86,3 +86,5 @@ All problems are solved by using Java.
 12. [Intersection of Two Linked Lists](problems/intersection-of-two-linked-lists.md)
 13. [Maximum Subarray](problems/maximum-subarray.md)
 14. [Reverse integer](problems/reverse-integer.md)
+15. [Find the Duplicate Number](problems/find-the-duplicate-number.md)
+16. [Implement Queue using Stacks](implement-queue-using-stacks.md)

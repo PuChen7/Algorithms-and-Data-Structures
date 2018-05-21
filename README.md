@@ -82,3 +82,7 @@ All problems are solved by using Java.
 8. [Longest Substring Without Repeating Characters](problems/longest-substring-without-repeating-characters.md)
 9. [Reverse Words in a String](problems/reverse-words-in-a-string.md)
 10. [Sqrt(x)](problems/sqrt.md)
+11. [Missing Number](problems/missing-number.md)
+12. [Intersection of Two Linked Lists](problems/intersection-of-two-linked-lists.md)
+13. [Maximum Subarray](problems/maximum-subarray.md)
+14. [Reverse integer](problems/reverse-integer.md)

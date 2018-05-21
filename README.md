@@ -88,3 +88,4 @@ All problems are solved by using Java.
 14. [Reverse integer](problems/reverse-integer.md)
 15. [Find the Duplicate Number](problems/find-the-duplicate-number.md)
 16. [Implement Queue using Stacks](implement-queue-using-stacks.md)
+17. [Kth Largest Element in an Array](problems/kth-largest-element-in-an-array.md)

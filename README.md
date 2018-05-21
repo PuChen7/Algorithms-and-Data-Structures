@@ -92,3 +92,5 @@ All problems are solved by using Java.
 18. [Copy List with Random Pointer](problems/copy-list-with-random-pointer.md)
 19. [First Unique Character in a String](problems/first-unique-character-in-a-string.md)
 20. [Valid Parentheses](problems/valid-parentheses.md)
+21. [Merge Sorted Array](problems/merge-sorted-array.md)
+22. [Implement Stack using Queues](problems/implement-stack-using-queues.md)

@@ -90,3 +90,4 @@ All problems are solved by using Java.
 16. [Implement Queue using Stacks](implement-queue-using-stacks.md)
 17. [Kth Largest Element in an Array](problems/kth-largest-element-in-an-array.md)
 18. [Copy List with Random Pointer](problems/copy-list-with-random-pointer.md)
+19. [First Unique Character in a String](problems/first-unique-character-in-a-string.md)

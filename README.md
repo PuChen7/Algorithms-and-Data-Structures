@@ -105,3 +105,4 @@ All problems are solved by using Java.
 31. [Trim a Binary Search Tree](problems/trim-a-binary-search-tree.md)
 32. [Add Two Numbers II](problems/add-two-numbers-2.md)
 33. [String Compression](problems/string-compression.md)
+34. [Top K Frequent Words](problems/top-k-frequent-words.md)

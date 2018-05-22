@@ -9,7 +9,7 @@ Every element of the array should be a character (not int) of length 1.
 
 After you are done modifying the input array in-place, return the new length of the array.
 
-# Solution
+# Solution - using two pointers
 ```java
 class Solution {
     public int compress(char[] chars) {

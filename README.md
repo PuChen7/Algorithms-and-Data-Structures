@@ -97,3 +97,5 @@ All problems are solved by using Java.
 23. [Remove Duplicates from Sorted Array](problems/remove-duplicates-from-sorted-array.md)
 24. [Factorial Trailing Zeroes](problems/factorial-trailing-zeroes.md)
 25. [Symmetric Tree](problems/symmetric-tree.md)
+26. [Balanced Binary Tree](problems/balanced-binary-tree.md)
+27. [Rotate Array](problems/rotate-array.md)

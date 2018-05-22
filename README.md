@@ -100,3 +100,5 @@ All problems are solved by using Java.
 26. [Balanced Binary Tree](problems/balanced-binary-tree.md)
 27. [Same Tree](problems/same-tree.md)
 28. [Rotate Array](problems/rotate-array.md)
+29. [Three Sum](problems/three-sum.md)
+30. [Palindrome Permutation](problems/palindrome-permutation.md)

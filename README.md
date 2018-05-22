@@ -96,3 +96,4 @@ All problems are solved by using Java.
 22. [Implement Stack using Queues](problems/implement-stack-using-queues.md)
 23. [Remove Duplicates from Sorted Array](problems/remove-duplicates-from-sorted-array.md)
 24. [Factorial Trailing Zeroes](problems/factorial-trailing-zeroes.md)
+25. [Symmetric Tree](problems/symmetric-tree.md)

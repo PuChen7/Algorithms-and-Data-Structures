@@ -98,4 +98,5 @@ All problems are solved by using Java.
 24. [Factorial Trailing Zeroes](problems/factorial-trailing-zeroes.md)
 25. [Symmetric Tree](problems/symmetric-tree.md)
 26. [Balanced Binary Tree](problems/balanced-binary-tree.md)
-27. [Rotate Array](problems/rotate-array.md)
+27. [Same Tree](problems/same-tree.md)
+28. [Rotate Array](problems/rotate-array.md)

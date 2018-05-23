@@ -113,3 +113,4 @@ All problems are solved by using Java.
 39. [Maximum Product of Three Numbers](problems/maximum-product-of-three-numbers.md)
 40. [Binary Tree Level Order Traversal](problems/binary-tree-level-order-traversal.md)
 41. [Binary Tree Zigzag Level Order Traversal](problems/binary-tree-zigzag-level-order-traversal.md)
+42. [Sort Characters By Frequency](problems/sort-characters-by-frequency.md)

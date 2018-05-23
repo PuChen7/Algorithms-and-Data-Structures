@@ -110,3 +110,4 @@ All problems are solved by using Java.
 36. [Merge Intervals](problems/merge-intervals.md)
 37. [Best Time to Buy and Sell Stock II](problems/best-time-to-buy-and-sell-stock-2.md)
 38. [Best Time to Buy and Sell Stock with Transaction Fee](problems/best-time-to-buy-and-sell-stock-with-transaction-fee.md)
+39. [Maximum Product of Three Numbers](problems/maximum-product-of-three-numbers.md)

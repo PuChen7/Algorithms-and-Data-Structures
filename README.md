@@ -114,3 +114,5 @@ All problems are solved by using Java.
 40. [Binary Tree Level Order Traversal](problems/binary-tree-level-order-traversal.md)
 41. [Binary Tree Zigzag Level Order Traversal](problems/binary-tree-zigzag-level-order-traversal.md)
 42. [Sort Characters By Frequency](problems/sort-characters-by-frequency.md)
+43. [Valid Anagram](problems/valid-anagram.md)
+44. [Group Anagrams](problems/group-anagrams.md)

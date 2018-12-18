@@ -74,6 +74,7 @@ All problems are solved by using Java.
 #### Hash Table
 1. [Find the Difference](problems/find-the-difference.md)
 2. [Longest Palindrome](problems/longest-palindrome.md)
+3. [Word Pattern](problems/word-pattern.md)
 #### Bloomberg
 1. [Two Sum](problems/two-sum.md)
 2. [Best Time to Buy and Sell Stock](problems/best-time-to-buy-and-sell-stock.md)

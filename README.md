@@ -78,6 +78,7 @@ All problems are solved in Java.
 4. [Happy Number](problems/happy-number.md)
 5. [Contains Duplicate](problems/contains-duplicate.md)
 6. [Contains Duplicate II](problems/contains-duplicate-two.md)
+7. [Intersection Of Two Arrays](problems/intersection-of-two-arrays.md)
 #### Bloomberg
 1. [Two Sum](problems/two-sum.md)
 2. [Best Time to Buy and Sell Stock](problems/best-time-to-buy-and-sell-stock.md)

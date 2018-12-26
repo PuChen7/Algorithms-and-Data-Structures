@@ -1,5 +1,5 @@
 # Algorithms-and-Data-Structures
-This repository is used for implementing algorithms by using different programming languages.
+This repository is used for implementing and practicing algorithms and data structures.
 
 ## Data Structures
 This is a collection of data structures and algorithms which I learned in my academic life.

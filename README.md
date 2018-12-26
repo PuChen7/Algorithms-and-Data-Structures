@@ -12,7 +12,7 @@ All algorithms should be tested and 100% correct.
 ## Algorithm Problems
 This is a collection of algorithm problems which can be taken as a preparation for coding interviews. 
 All questions are picked out from various resources such as [Leetcode](https://leetcode.com). 
-All problems are solved by using Java.
+All problems are solved in Java.
 
 1. [Is Unique](/problems/is-unique.md)
 2. [Array Partition I](/problems/array-partition-1.md)

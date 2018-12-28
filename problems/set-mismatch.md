@@ -12,7 +12,7 @@ Input: nums = [1,2,2,4]
 Output: [2,3]
 
 ## Solution - Clean Code
-``java
+```java
 class Solution {
     public int[] findErrorNums(int[] nums) {
         int correctSum = getCorrectSum(nums.length);

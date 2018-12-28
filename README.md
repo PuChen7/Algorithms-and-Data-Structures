@@ -85,6 +85,7 @@ All problems are solved in Java.
 11. [Keyboard Row](problems/keyboard-row.md)
 12. [Distribute Candies](problems/distribute-candies.md)
 13. [Longest Harmonious Subsequence](problems/longest-harmonious-subsequence.md)
+14. [Minimum Index Sum Of Two Lists](problems/minimum-index-sum-of-two-lists.md)
 #### Bloomberg
 1. [Two Sum](problems/two-sum.md)
 2. [Best Time to Buy and Sell Stock](problems/best-time-to-buy-and-sell-stock.md)

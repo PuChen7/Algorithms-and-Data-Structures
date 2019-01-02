@@ -6,9 +6,17 @@ This is a collection of data structures and algorithms which I learned in my aca
 This summary is for further learning purpose.
 All algorithms should be tested and 100% correct.
 
+### Data Structures
+* [HashTable](/algorithms/hash-table.md)
+
+### Sorting
 * [Bubble Sort](/algorithms/bubble-sort.md)
-* [Binary Search](/algorithms/binary-search.md)
 * [Merge Sort](/algorithms/mergesort.md)
+
+### Searching
+* [Binary Search](/algorithms/binary-search.md)
+
+### Additional
 * [Backtracking](algorithms/backtracking.md)
 
 ## Algorithm Problems

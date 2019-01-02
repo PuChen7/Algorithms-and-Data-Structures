@@ -6,8 +6,8 @@ This is a collection of data structures and algorithms which I learned in my aca
 This summary is for further learning purpose.
 All algorithms should be tested and 100% correct.
 
-[Algorithms and Data Structures](/algorithms/algo.md)
-[Backtracking](algorithms/backtracking.md)
+* [Algorithms and Data Structures](/algorithms/algo.md)
+* [Backtracking](algorithms/backtracking.md)
 
 ## Algorithm Problems
 This is a collection of algorithm problems which can be taken as a preparation for coding interviews. 

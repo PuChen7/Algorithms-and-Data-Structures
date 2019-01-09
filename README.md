@@ -12,6 +12,7 @@ All algorithms should be tested and 100% correct.
 ### Sorting
 * [Bubble Sort](/algorithms/bubble-sort.md)
 * [Merge Sort](/algorithms/mergesort.md)
+* [Counting Sort](/algorithms/counting-sort.md)
 
 ### Searching
 * [Binary Search](/algorithms/binary-search.md)

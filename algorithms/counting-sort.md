@@ -18,9 +18,7 @@ distinct key values (kind of hashing). Then doing some arithmetic to calculate t
     // modify by adding the previous sum
     for (int i = 1; i < modified.length; i++)
         modified[i] += modified[i-1];
-
-    //printArray(modified);
-
+        
     // output array
     int[] res = new int[input.length];
 
@@ -31,7 +29,7 @@ distinct key values (kind of hashing). Then doing some arithmetic to calculate t
         modified[val] = modified[val] - 1;
     }
 }
-```java
+```
 
 ## Complexity
 O(n)

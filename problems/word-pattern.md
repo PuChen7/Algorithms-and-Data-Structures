@@ -1,12 +1,16 @@
 # Word Pattern - from [LeetCode](https://leetcode.com)
 [View this problem on LeetCode](https://leetcode.com/problems/word-pattern/)
 
+## Description
 Here follow means a full match, such that there is a bijection between a letter in pattern and a non-empty word in str.
 
 Example 1:
 
 Input: pattern = "abba", str = "dog cat cat dog"
 Output: true
+
+## Thinking & Notes
+
 
 ## Solution
 ```java

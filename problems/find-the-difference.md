@@ -32,7 +32,7 @@ Special cases to consider:
 
 * Using HashMap: count occurrences of each letter. Then compare each key one by one. `O(n)` time complexity. Need `two maps`, so `O(2n)` for space complexity. Can be improved.
 
-* Using HashMap - `improved`: need two maps? No! I can count occurrences of letters of string 't' (string with extra letter), then walk through string 's' and for each letter I minus occurrence by one. Finally the (key, value) pair whose value is '1' will be the answer. Time complexity is still `O(n)`. But space complexity is `O(n)` because I only need one map.
+* Using HashMap - `improved`: need two maps? No! I can count occurrences of letters of string 's' (string without extra letter), then walk through string 't' and for each letter I minus occurrence by one. Finally the key's value is going to be < 0 will be the answer. Time complexity is still `O(n)`. But space complexity is `O(n)` because I only need one map.
 
 * Using ASCII: maybe the best answer. I add up ascii value of two strings. Then do a minus, convert to char. I get the answer.
 Time Complexity: `O(n)`. Space: `O(1)`.

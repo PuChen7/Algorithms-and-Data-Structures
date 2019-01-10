@@ -112,4 +112,3 @@ The main idea is to find the extra char, so `HashMap` can be a very good data st
 Counting occurrences is widely used in HashMap problems.
 
 Using ASCII sum is a smart way to do it. But it only works with `ONE` extra letter. If we need to find `two` extra letters, ASCII will not work.
-### More About this Algorithm & Data Structure?

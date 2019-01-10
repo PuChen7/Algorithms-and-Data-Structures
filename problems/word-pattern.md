@@ -10,7 +10,7 @@ Input: pattern = "abba", str = "dog cat cat dog"
 Output: true
 
 ## Thinking & Notes
-
+No clue.
 
 ## Solution
 ```java
@@ -27,3 +27,11 @@ class Solution {
     }
 }
 ```
+
+## Complexity
+Time Complexity: O(n)
+Space Complexity: O(2n)
+
+## Core Algorithm & Data Sructure
+* HashMap: Adding items from both string to `HashMap`. `string` is key, `index` is value.
+  * `map.put`: return the `previous value` associated with key, or `null` if there was no mapping for key.

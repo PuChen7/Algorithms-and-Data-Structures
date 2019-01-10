@@ -37,7 +37,7 @@ Special cases to consider:
 * Using ASCII: maybe the best answer. I add up ascii value of two strings. Then do a minus, convert to char. I get the answer.
 Time Complexity: `O(n)`. Space: `O(1)`.
 
-## My Solution - Version I
+## My Solution - Version I - `Using Two Maps`
 ```java
 class Solution {
     public char findTheDifference(String s, String t) {
@@ -61,9 +61,10 @@ class Solution {
 }
 ```
 ## Complexity
+* Time: O(n)
+* Space: O(2n)
 
-
-## My Solution - Version II
+## My Solution - Version II - `Using One Map`
 ```java
 class Solution {
     public char findTheDifference(String s, String t) {
@@ -84,8 +85,10 @@ class Solution {
 }
 ```
 ## Complexity
+* Time: O(n)
+* Space: O(n)
 
-## My Solution - Version III
+## My Solution - Version III - `Using ASCII Sum`
 ```java
 class Solution {
     public char findTheDifference(String s, String t) {
@@ -100,3 +103,5 @@ class Solution {
 }
 ```
 ## Complexity
+* Time: O(n)
+* Space O(1)

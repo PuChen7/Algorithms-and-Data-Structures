@@ -17,6 +17,8 @@ Then iterate through map for `k` times and add `key` if `value` >= `K-th` most f
 
 * Using `Bucket Sort`: count frequency using `HashMap`. Create a list array. Map `numbers(key)` into list by `index(freq)`. Iterate through list `backwards` `(freq(index): max -> min)`. check if `res size < k`.
 
+* Using `Min-Heap` (PriorityQueue): Count frequencies and store into `HashMap`. I can use `min-heap` to keep input number sorted `(min->max)`. Iterate through HashMap and keep inserting. When heap reached size `k`, `poll` after `add`, so that heap contains `k` most frequent numbers.
+
 ## Solution - Using HashMap and Sort Values
 ```java
 class Solution {
@@ -72,6 +74,35 @@ class Solution {
 ```
 ## Complexity
 Time Complexity: `O(n)`
+
+## Solution - Using Min-Heap (PriorityQueue)
+```java
+class Solution {
+    public List<Integer> topKFrequent(int[] nums, int k) {
+        HashMap<Integer, Integer> map = new HashMap<>();
+        for (int item : nums) map.put(item, map.getOrDefault(item, 0)+1);
+        
+        PriorityQueue<Integer> heap = new PriorityQueue<Integer>((n1,n2) -> map.get(n1) - map.get(n2));
+        
+        for (Integer key : map.keySet()){
+            heap.add(key);
+            if (heap.size() > k) 
+                heap.poll();
+        }
+        
+        List<Integer> res = new ArrayList<>();
+        
+        while (!heap.isEmpty())
+            res.add(heap.poll());
+        
+        Collections.reverse(res);
+        return res;
+    }
+}
+```
+### Complexity
+Time: `O(nlogk)`: `O(n)` time to get frequency. `O(nlogk)` time to build heap and output.
+Space: `O(n)` for HashMap
 
 ### Core Algorithm & Data Sructure
 * HashMap and Sort Values: Main idea is sort hashmap by `values` in `descending order`. Then iterate through key set by k times.

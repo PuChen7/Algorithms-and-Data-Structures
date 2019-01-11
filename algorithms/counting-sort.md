@@ -2,6 +2,8 @@
 Counting sort is a sorting technique based on keys between a specific range. It works by counting the number of objects having 
 distinct key values (kind of hashing). Then doing some arithmetic to calculate the position of each object in the output sequence.
 
+Counting sort is an `integer sorting algorithm`, not a `comparison based algorithm`. While any comparison based sorting algorithm requires `O(nlogn)` comparisons, counting sort has a running time of `O(n)`.
+
 ```java
  public static void main(String[] args){
     // input array. for each value <= arr.length

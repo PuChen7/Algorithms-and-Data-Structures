@@ -8,6 +8,7 @@ All algorithms should be tested and 100% correct.
 
 ### Data Structures
 * [HashTable](/algorithms/hash-table.md)
+* [Priority Queue And Heap](/algorithms/priority-queue-and-heap.md)
 
 ### Sorting
 * [Bubble Sort](/algorithms/bubble-sort.md)

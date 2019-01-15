@@ -27,10 +27,10 @@ This is a collection of algorithm problems which can be taken as a preparation f
 All questions are picked out from various resources such as [Leetcode](https://leetcode.com). 
 All problems are solved in Java.
 
-### Confusing Problems
+#### Confusing Problems
 1. [Contiguous Array](problems/contiguous-array.md)
 
-### CC
+#### CC
 1. [Is Unique](/problems/is-unique.md)
 2. [Array Partition I](/problems/array-partition-1.md)
 3. [Search Insert Posision](/problems/search-insert-position.md)

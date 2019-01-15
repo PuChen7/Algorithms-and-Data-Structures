@@ -112,6 +112,7 @@ All problems are solved in Java.
 21. [Replace Words](problems/replace-words.md)
 22. [Repeated DNA Sequences](problems/repeated-dna-sequences.md)
 23. [Contiguous Array](problems/contiguous-array.md)
+24. [Longest Word in Dictionary](problems/longest-word-in-dictionary.md)
 #### Bloomberg
 1. [Two Sum](problems/two-sum.md)
 2. [Best Time to Buy and Sell Stock](problems/best-time-to-buy-and-sell-stock.md)

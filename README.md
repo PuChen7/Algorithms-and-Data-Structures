@@ -30,6 +30,7 @@ All problems are solved in Java.
 ### Confusing Problems
 1. [Contiguous Array](problems/contiguous-array.md)
 
+### CC
 1. [Is Unique](/problems/is-unique.md)
 2. [Array Partition I](/problems/array-partition-1.md)
 3. [Search Insert Posision](/problems/search-insert-position.md)

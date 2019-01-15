@@ -1,5 +1,5 @@
 # Replace Words - from [LeetCode](https://leetcode.com)
-[View this problem on LeetCode]()
+[View this problem on LeetCode](https://leetcode.com/problems/replace-words/)
 
 ## Description
  In English, we have a concept called root, which can be followed by some other words to form another longer word - let's call this word successor. For example, the root an, followed by other, which can form another word another.

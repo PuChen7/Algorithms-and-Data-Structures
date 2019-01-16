@@ -114,6 +114,7 @@ All problems are solved in Java.
 23. [Contiguous Array](problems/contiguous-array.md)
 24. [Longest Word in Dictionary](problems/longest-word-in-dictionary.md)
 25. [N-Repeated Element in Size 2N Array](problems/n-repeated-element-in-size-2n-array.md)
+26. [Employee Importance](problems/employee-importance.md)
 #### Bloomberg
 1. [Two Sum](problems/two-sum.md)
 2. [Best Time to Buy and Sell Stock](problems/best-time-to-buy-and-sell-stock.md)

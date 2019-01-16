@@ -29,6 +29,7 @@ All problems are solved in Java.
 
 #### Confusing Problems
 1. [Contiguous Array](problems/contiguous-array.md)
+2. [Find All Anagrams in a String](problems/find-all-anagrams-in-a-string.md) - Using Sliding Window
 
 #### CC
 1. [Is Unique](/problems/is-unique.md)

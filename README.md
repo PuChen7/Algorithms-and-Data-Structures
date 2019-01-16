@@ -116,6 +116,7 @@ All problems are solved in Java.
 25. [N-Repeated Element in Size 2N Array](problems/n-repeated-element-in-size-2n-array.md)
 26. [Employee Importance](problems/employee-importance.md)
 27. [Uncommon Words from Two Sentences](problems/uncommon-words-from-two-sentences.md)
+28. [Find All Anagrams in a String](problems/find-all-anagrams-in-a-string.md)
 #### Bloomberg
 1. [Two Sum](problems/two-sum.md)
 2. [Best Time to Buy and Sell Stock](problems/best-time-to-buy-and-sell-stock.md)

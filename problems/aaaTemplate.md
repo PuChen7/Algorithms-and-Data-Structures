@@ -3,14 +3,15 @@
 
 ## Description
 
+## Thinking & Notes
 
 ## Solution
 ```java
 ```
 
-## Complexity
-
-## Thinking & Notes
+### Complexity
+* Time Complexity:
+* Space Complexity
 
 ### Core Algorithm & Data Sructure
 

@@ -124,6 +124,7 @@ All problems are solved in Java.
 31. [Subarray Sum Equals K](problems/subarray-sum-equals-k.md)
 32. [4Sum II](problems/4sum-ii.md)
 33. [Most Frequent Subtree Sum](problems/most-frequent-subtree-sum.md)
+34. [Binary Subarrays With Sum](problems/binary-subarrays-with-sum.md)
 #### Bloomberg
 1. [Two Sum](problems/two-sum.md)
 2. [Best Time to Buy and Sell Stock](problems/best-time-to-buy-and-sell-stock.md)

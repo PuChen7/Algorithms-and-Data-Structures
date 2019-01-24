@@ -5,13 +5,13 @@
 
 ## Thinking & Notes
 
-## Solution
+## Solution - 
 ```java
 ```
 
 ### Complexity
 * Time Complexity:
-* Space Complexity
+* Space Complexity: 
 
 ### Core Algorithm & Data Sructure
 

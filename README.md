@@ -126,6 +126,10 @@ All problems are solved in Java.
 33. [Most Frequent Subtree Sum](problems/most-frequent-subtree-sum.md)
 34. [Binary Subarrays With Sum](problems/binary-subarrays-with-sum.md)
 35. [Subdomain Visit Count](problems/subdomain-visit-count.md)
+
+#### Binary Search
+1. [Search Insert Position](problems/search-insert-position.md)
+
 #### Bloomberg
 1. [Two Sum](problems/two-sum.md)
 2. [Best Time to Buy and Sell Stock](problems/best-time-to-buy-and-sell-stock.md)

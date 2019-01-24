@@ -19,6 +19,9 @@ class Solution {
     }
 }
 ```
+### Complexity
+* Time: O(nlogn)
+* Space: O(1)
 
 The solution's algorithm compares the target with the middle element of the array, 
 then split the array into half based on the value of the element, 

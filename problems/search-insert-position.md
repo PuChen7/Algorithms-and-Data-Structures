@@ -20,7 +20,7 @@ class Solution {
 }
 ```
 ### Complexity
-* Time: O(nlogn)
+* Time: O(logn)
 * Space: O(1)
 
 The solution's algorithm compares the target with the middle element of the array, 

@@ -128,8 +128,9 @@ All problems are solved in Java.
 35. [Subdomain Visit Count](problems/subdomain-visit-count.md)
 
 #### Binary Search
-1. [Search Insert Position](problems/search-insert-position.md)
-2. [Arranging Coins](problems/arranging-coins.md)
+1. [Binary Search](problems/binary-search.md)
+2. [Search Insert Position](problems/search-insert-position.md)
+3. [Arranging Coins](problems/arranging-coins.md)
 
 #### Bloomberg
 1. [Two Sum](problems/two-sum.md)

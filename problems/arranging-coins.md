@@ -13,6 +13,7 @@ Example 1:
 n = 5
 
 The coins can form the following rows:
+
 ¤
 
 ¤ ¤

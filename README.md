@@ -131,6 +131,7 @@ All problems are solved in Java.
 1. [Binary Search](problems/binary-search.md)
 2. [Search Insert Position](problems/search-insert-position.md)
 3. [Arranging Coins](problems/arranging-coins.md)
+4. [Peak Index in a Mountain Array](problems/peak-index-in-a-mountain-array.md)
 
 #### Bloomberg
 1. [Two Sum](problems/two-sum.md)

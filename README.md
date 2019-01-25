@@ -129,6 +129,7 @@ All problems are solved in Java.
 
 #### Binary Search
 1. [Search Insert Position](problems/search-insert-position.md)
+2. [Arranging Coins](problems/arranging-coins.md)
 
 #### Bloomberg
 1. [Two Sum](problems/two-sum.md)

@@ -133,6 +133,7 @@ All problems are solved in Java.
 3. [Arranging Coins](problems/arranging-coins.md)
 4. [Peak Index in a Mountain Array](problems/peak-index-in-a-mountain-array.md)
 5. [Guess Number Higher or Lower](problems/guess-number-higher-or-lower.md)
+6. [Sqrt(x)](problems/sqrt.md)
 
 #### Bloomberg
 1. [Two Sum](problems/two-sum.md)

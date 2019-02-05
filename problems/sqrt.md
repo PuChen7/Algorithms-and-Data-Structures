@@ -13,7 +13,7 @@ Input: 4
 
 Output: 2
 
-## Solution I - Newton Method
+## Solution I - Newton's Method
 ```java
 class Solution {
     public int mySqrt(int x) {

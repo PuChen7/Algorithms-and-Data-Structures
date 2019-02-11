@@ -135,6 +135,7 @@ All problems are solved in Java.
 5. [Guess Number Higher or Lower](problems/guess-number-higher-or-lower.md)
 6. [Sqrt(x)](problems/sqrt.md)
 7. [Two Sum II - Input array is sorted](problems/two-sum-2-Input-array-is-sorted.md)
+8. [Find Smallest Letter Greater Than Target](problems/find-smallest-letter-greater-than-target.md)
 
 #### Bloomberg
 1. [Two Sum](problems/two-sum.md)

@@ -11,32 +11,30 @@ Given "bbbbb", the answer is "b", with the length of 1.
 
 Given "pwwkew", the answer is "wke", with the length of 3. Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
 
-## Solution I - Using HashSet
+## Thinking & Notes
+* Sliding Window: use HashSet to store the characters in current window, slide right index to next if no duplicates. until detected duplicates. do this for all **i**.
+* 
+
+## Solution I - Sliding Window
 ```java
 class Solution {
     public int lengthOfLongestSubstring(String s) {
-        if (s == null) return 0;
-        
-        Set set = new HashSet();
-        int len = 0, i = 0, j = 0;
-        while (i < s.length() && j < s.length()){
-            if (!set.contains(s.charAt(j))){
-                set.add(s.charAt(j));
-                j += 1;
-                len = Math.max(len, j-i);
+        int n = s.length();
+        int res = 0, i = 0, j = 0;
+        Set<Character> set = new HashSet<>();
+        while (i < n && j < n){
+            if (!set.contains(s.charAt(j))) {
+                set.add(s.charAt(j++)); // increment j
+                res = Math.max(res, set.size());
             } else {
-                set.remove(s.charAt(i));
-                i += 1;
+                set.remove(s.charAt(i++));
             }
         }
-        return len;
+        return res;
     }
 }
 ```
-
-### Complexity
 * Time Complexity: O(2n) -> O(n). Worst case: each char will be visited twice by `i` and `j`
-
 * Space Complexity: O(min(m,n)). The size of the Set is upper bounded by the size of the string n and the size of the charset/alphabet m.
 
 ## Solution II - Using HashMap

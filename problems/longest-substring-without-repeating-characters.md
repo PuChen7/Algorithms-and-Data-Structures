@@ -13,7 +13,7 @@ Given "pwwkew", the answer is "wke", with the length of 3. Note that the answer 
 
 ## Thinking & Notes
 * Sliding Window: use HashSet to store the characters in current window, slide right index to next if no duplicates. until detected duplicates. do this for all **i**.
-* 
+* HashMap: `Sliding Window` can be optimized by define a mapping of the characters to its index. Then we can skip the characters immediately when we found a repeated character. 
 
 ## Solution I - Sliding Window
 ```java

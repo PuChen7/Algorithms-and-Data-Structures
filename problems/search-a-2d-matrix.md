@@ -24,7 +24,7 @@ class Solution {
 }
 ```
 ### Complexity
-* Time Complexity: O(n)
+* Time Complexity: O(n*m)
 * Space Complexity: O(1)
 
 ## Solu8tion - Think as sorted list

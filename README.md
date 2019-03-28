@@ -138,6 +138,7 @@ All problems are solved in Java.
 8. [Find Smallest Letter Greater Than Target](problems/find-smallest-letter-greater-than-target.md)
 9. [Search in Rotated Sorted Array](problems/search-in-rotated-sorted-array.md)
 10. [Search a 2D Matrix](problems/search-a-2d-matrix.md)
+11. [Search in Rotated Sorted Array II](problems/search-in-rotated-sorted-array-ii.md)
 
 #### Dynamic Programming
 1. [Longest Palindromic Substring](problems/longest-palindromic-substring.md)

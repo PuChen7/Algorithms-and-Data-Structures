@@ -12,6 +12,7 @@ Output: 2
 
 ## Thinking & Notes
 * Brute Force: check every sub array.
+* Two pointers: use two pointers to check sub-arrays.
 
 ## Solution - Brute Force
 ```java
@@ -35,4 +36,24 @@ class Solution {
 ```
 ### Complexity
 * Time Complexity: O(n^3)
+* Space Complexity: O(1)
+
+## Solution - Two pointers
+```java
+class Solution {
+    public int minSubArrayLen(int s, int[] nums) {
+        int sum = 0, left = 0, right = nums.length - 1, res = Integer.MAX_VALUE;
+        for (int i = 0; i < nums.length; i++) {
+            sum += nums[i];
+            while (sum >= s) {
+                res = Math.min(res, i+1-left);
+                sum -= nums[left++];
+            }
+        }
+        return res == Integer.MAX_VALUE ? 0 : res;
+    }
+}
+```
+### Complexity
+* Time Complexity: O(n)
 * Space Complexity: O(1)

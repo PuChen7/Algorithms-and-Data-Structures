@@ -14,8 +14,7 @@
     * if `n` < the smallest tail (1), replace the smallest tail with `n`
     * if `n` in the middle, find the smallest number > `n`, then replace. (Use `Binary Search` to find since all sub-arrays are sorted)
   
-  ```java
-  public class Solution {
+```java
 public int longestIncreasingSubsequence(int[] nums) {
     // write your code here
     if(nums.length == 0){

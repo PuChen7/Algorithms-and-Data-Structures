@@ -15,6 +15,7 @@ All algorithms should be tested and 100% correct.
 * [Merge Sort](/algorithms/mergesort.md)
 * [Counting Sort](/algorithms/counting-sort.md)
 * [Insertion Sort](/algorithms/insertion-sort.md)
+* [Patience Sort](/algorithms/patience-sort.md)
 
 ### Searching
 * [Binary Search](/algorithms/binary-search.md)

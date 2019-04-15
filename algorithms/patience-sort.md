@@ -20,19 +20,19 @@ public int longestIncreasingSubsequence(int[] nums) {
     if(nums.length == 0){
         return 0;
     }
-    // len表示当前最长的升序序列长度（为了方便操作tails我们减1）
+    // len: the current longest sub-array length-1
     int len = 0;
-    // tails[i]表示长度为i的升序序列其末尾的数字
+    // tails[i] means: the last item of the sub-array with length i
     int[] tails = new int[nums.length];
     tails[0] = nums[0];
-    // 根据三种情况更新不同升序序列的集合
+    // Three cases
     for(int i = 1; i < nums.length; i++){
-        if(nums[i] < tails[0]){
+        if(nums[i] < tails[0]){ // smallest
             tails[0] = nums[i];
-        } else if (nums[i] >= tails[len]){
-            tails[++len] = nums[i];
+        } else if (nums[i] >= tails[len]){ // largest
+            tails[++len] = nums[i]; 
         } else {
-        // 如果在中间，则二分搜索
+            // in the middle
             tails[binarySearch(tails, 0, len, nums[i])] = nums[i];
         }
     }

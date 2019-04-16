@@ -6,6 +6,7 @@ Given an unsorted array of integers, find the length of longest increasing subse
 
 ## Thinking & Notes
 * Dynamic Programming: use an array to store current longest subarray at each index.
+* Binary Search: use `patience sort` to form tails.
 
 ## Solution - Dynamic Programming
 ```java
@@ -32,7 +33,32 @@ class Solution {
     }
 }
 ```
-
 ### Complexity
 * Time Complexity: O(n^2)
+* Space Complexity: O(n)
+
+## Solution - Binary Search
+```java
+class Solution {
+    public int lengthOfLIS(int[] nums) {
+        int[] tails = new int[nums.length];
+        int size = 0;
+        for (int num : nums) {
+            int i = 0, j = size;
+            while (i != j) {
+                int m = (i+j) / 2;
+                if (num > tails[m])
+                    i = m + 1;
+                else 
+                    j = m;
+            }
+            tails[i] = num;
+            if (i == size) size++;
+        }
+        return size;
+    }
+}
+```
+### Complexity
+* Time Complexity: O(nlogn)
 * Space Complexity: O(n)

@@ -146,6 +146,7 @@ All problems are solved in Java.
 14. [Kth Smallest Element in a BST](problems/kth-smallest-element-in-a-bst.md)
 15. [Search a 2D Matrix II](problems/search-a-2d-matrix-ii.md)
 16. [Longest Increasing Subsequence](problems/longest-increasing-subsequence.md)
+17. [Kth Smallest Element in a Sorted Matrix](problems/kth-smallest-element-in-a-sorted-matrix.md)
 
 #### Dynamic Programming
 1. [Longest Palindromic Substring](problems/longest-palindromic-substring.md)

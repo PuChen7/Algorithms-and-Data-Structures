@@ -35,7 +35,7 @@ class Solution {
     }
 }
 ```
-### Complexity
+#### Complexity
 * Time Complexity: O(n)
 * Space Complexity: O(1)
 
@@ -57,7 +57,7 @@ class Solution {
     }
 }
 ```
-### Complexity
+#### Complexity
 * Time Complexity: O(logn)
 * Space Complexity: O(n)
 

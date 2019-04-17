@@ -149,6 +149,7 @@ All problems are solved in Java.
 17. [Kth Smallest Element in a Sorted Matrix](problems/kth-smallest-element-in-a-sorted-matrix.md)
 18. [Valid Perfect Square](problems/valid-perfect-square.md)
 19. [Is Subsequence](problems/is-subsequence.md)
+20. [Find K Closest Elements](problems/find-k-closest-elements.md)
 
 #### Dynamic Programming
 1. [Longest Palindromic Substring](problems/longest-palindromic-substring.md)

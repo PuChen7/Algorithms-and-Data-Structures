@@ -36,6 +36,7 @@ All problems are solved in Java.
 * [Linked List](#linked-list)
 * [Hash Table](#hash-table)
 * [Binary Search](#binary-search)
+* [Two Pointers](#two-pointers)
 * [Dynamic Programming](#dynamic-programming)
 * [Bloomberg](#bloomberg)
 
@@ -161,6 +162,9 @@ All problems are solved in Java.
 18. [Valid Perfect Square](problems/valid-perfect-square.md)
 19. [Is Subsequence](problems/is-subsequence.md)
 20. [Find K Closest Elements](problems/find-k-closest-elements.md)
+
+#### Two Pointers
+1. [Remove Duplicates from Sorted Array](problems/remove-duplicates-from-sorted-array.md)
 
 #### Dynamic Programming
 1. [Longest Palindromic Substring](problems/longest-palindromic-substring.md)

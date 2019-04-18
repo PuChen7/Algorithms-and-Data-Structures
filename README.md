@@ -28,6 +28,17 @@ This is a collection of algorithm problems which can be taken as a preparation f
 All questions are picked out from various resources such as [Leetcode](https://leetcode.com). 
 All problems are solved in Java.
 
+### Content
+* [Confusing Problems](#confusing-problems)
+* [CC](#cc)
+* [Backtracking Problems](#backtracking-problems)
+* [Array](#array)
+* [Linked List](#linked-list)
+* [Hash Table](#hash-table)
+* [Binary Search](#binary-search)
+* [Dynamic Programming](#dynamic-programming)
+* [Bloomberg](#bloomberg)
+
 #### Confusing Problems
 1. [Contiguous Array](problems/contiguous-array.md)
 2. [Find All Anagrams in a String](problems/find-all-anagrams-in-a-string.md) - Using Sliding Window

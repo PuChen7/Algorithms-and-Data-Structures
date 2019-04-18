@@ -167,6 +167,7 @@ All problems are solved in Java.
 1. [Remove Duplicates from Sorted Array](problems/remove-duplicates-from-sorted-array.md)
 2. [Remove Element](problems/remove-element.md)
 3. [Valid Palindrome](problems/valid-palindrome.md)
+4. [Reverse Vowels of a String](problems/reverse-vowels-of-a-string.md)
 
 #### Dynamic Programming
 1. [Longest Palindromic Substring](problems/longest-palindromic-substring.md)

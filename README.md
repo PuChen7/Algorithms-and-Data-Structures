@@ -166,6 +166,7 @@ All problems are solved in Java.
 #### Two Pointers
 1. [Remove Duplicates from Sorted Array](problems/remove-duplicates-from-sorted-array.md)
 2. [Remove Element](problems/remove-element.md)
+3. [Valid Palindrome](problems/valid-palindrome.md)
 
 #### Dynamic Programming
 1. [Longest Palindromic Substring](problems/longest-palindromic-substring.md)

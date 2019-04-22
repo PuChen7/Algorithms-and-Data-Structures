@@ -169,6 +169,7 @@ All problems are solved in Java.
 3. [Valid Palindrome](problems/valid-palindrome.md)
 4. [Reverse Vowels of a String](problems/reverse-vowels-of-a-string.md)
 5. [Squares of a Sorted Array](problems/squares-of-a-sorted-array.md)
+6. [K-diff Pairs in an Array](problems/k-diff-pairs-in-an-array.md)
 
 #### Dynamic Programming
 1. [Longest Palindromic Substring](problems/longest-palindromic-substring.md)

@@ -2,6 +2,21 @@
 The main idea of a hash table is to take a bucket array, A, and a hash function, h, and
 use them to implement a map by storing each entry (k,v) in the “bucket” A[h(k)].
 
+## How HashMap works internally in Java
+- Hashing: a way to assigning a unique code for any variable/object after applying any formula/algorithm on its properties.
+  - Hash function should return the same hash code each and every time when the function is applied on same or equal objects.
+  - All objects in Java inherit a default implementation of `hashCode()` function defined in `Object` class. This function produces hash code by typically converting the internal address of the object into an integer, thus producing different hash codes for all different objects.
+  - HashMap has an inner class Entry:
+  ```java
+  static class Entry<K ,V> implements Map.Entry<K, V> {
+      final K key;
+      V value;
+      Entry<K ,V> next;
+      final int hash;
+      ...//More code goes here
+  }
+  ```
+  
 ## Compression Functions
 Once an integer `hash code` is generated for a key object `k`, there is still the issue of mapping that integer 
 into the range `[0,N−1]`. The integer hash code may be `negative` or may `exceed the capacity` of the bucket array.

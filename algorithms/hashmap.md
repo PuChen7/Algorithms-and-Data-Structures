@@ -14,3 +14,4 @@
       ...//More code goes here
   }
   ```
+* More Details: https://howtodoinjava.com/java/collections/hashmap/how-hashmap-works-in-java/#short_answer

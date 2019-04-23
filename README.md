@@ -1,3 +1,5 @@
+[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
+
 # Algorithms-and-Data-Structures
 This repository is used for implementing and practicing algorithms and data structures.
 

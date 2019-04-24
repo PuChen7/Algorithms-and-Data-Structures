@@ -178,6 +178,7 @@ All problems are solved in Java.
 8. [Partition Labels](problems/partition-labels.md)
 9. [Partition List](problems/partition-list.md)
 10. [Permutation in String](problems/permutation-in-string.md)
+11. [Max Consecutive Ones III](problems/max-consecutive-ones-iii.md)
 
 #### Sliding Window
 1. [Permutation in String](problems/permutation-in-string.md)

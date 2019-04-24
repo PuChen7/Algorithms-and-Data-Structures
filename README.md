@@ -182,6 +182,8 @@ All problems are solved in Java.
 
 #### Sliding Window
 1. [Permutation in String](problems/permutation-in-string.md)
+2. [Longest Repeating Character Replacement](problems/longest-repeating-character-replacement.md)
+3. [Max Consecutive Ones III](problems/max-consecutive-ones-iii.md)
 
 #### Dynamic Programming
 1. [Longest Palindromic Substring](problems/longest-palindromic-substring.md)

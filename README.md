@@ -180,6 +180,7 @@ All problems are solved in Java.
 10. [Permutation in String](problems/permutation-in-string.md)
 11. [Max Consecutive Ones III](problems/max-consecutive-ones-iii.md)
 12. [Longest Word in Dictionary through Deleting](problems/longest-word-in-dictionary-through-deleting.md)
+13. [Sort Colors](problems/sort-colors.md)
 
 #### Sliding Window
 1. [Permutation in String](problems/permutation-in-string.md)

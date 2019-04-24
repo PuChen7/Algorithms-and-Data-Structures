@@ -181,6 +181,7 @@ All problems are solved in Java.
 11. [Max Consecutive Ones III](problems/max-consecutive-ones-iii.md)
 12. [Longest Word in Dictionary through Deleting](problems/longest-word-in-dictionary-through-deleting.md)
 13. [Sort Colors](problems/sort-colors.md)
+14. [Remove Duplicates from Sorted Array II](problems/remove-duplicates-from-sorted-array-ii.md)
 
 #### Sliding Window
 1. [Permutation in String](problems/permutation-in-string.md)

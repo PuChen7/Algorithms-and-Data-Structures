@@ -48,6 +48,7 @@ All problems are solved in Java.
 2. [Find All Anagrams in a String](problems/find-all-anagrams-in-a-string.md) - Using Sliding Window
 3. [Daily Temperatures](problems/daily-temperatures.md) - Need to improve
 4. [Longest Increasing Subsequence](problems/longest-increasing-subsequence.md) - Binary Search approach
+5. [Permutation in String](problems/permutation-in-string.md) - Sliding Window
 
 #### CC
 1. [Is Unique](/problems/is-unique.md)

@@ -18,7 +18,7 @@ class Solution {
             for (int i = 0; i < s.length(); i++){ // iterate s and compare with word
                 if (s.charAt(i) == w.charAt(j)) j++; // increment word index, compare with next char
                 if (j == w.length()){ // if reached word length, it means s contains this word
-					// check length and lexicographical order 
+		    // check length and lexicographical order 
                     if (w.length() > res.length() || 
                         (w.length() == res.length() && w.compareTo(res) < 0)) res = w;
                     break;

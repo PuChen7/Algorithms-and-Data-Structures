@@ -179,6 +179,7 @@ All problems are solved in Java.
 9. [Partition List](problems/partition-list.md)
 10. [Permutation in String](problems/permutation-in-string.md)
 11. [Max Consecutive Ones III](problems/max-consecutive-ones-iii.md)
+12. [Longest Word in Dictionary through Deleting](problems/longest-word-in-dictionary-through-deleting.md)
 
 #### Sliding Window
 1. [Permutation in String](problems/permutation-in-string.md)

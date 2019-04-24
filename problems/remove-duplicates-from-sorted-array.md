@@ -14,7 +14,7 @@ Do not allocate extra space for another array, you must do this by modifying the
 class Solution {
     public int removeDuplicates(int[] nums) {
         if (nums == null || nums.length == 0) return 0;
-        int res = 0, index = 0;
+        int index = 0;
         for (int i = 1; i < nums.length; i++){
             if (nums[i] != nums[i-1]){
                 index++;

@@ -41,6 +41,7 @@ All problems are solved in Java.
 * [Binary Search](#binary-search)
 * [Two Pointers](#two-pointers)
 * [Dynamic Programming](#dynamic-programming)
+* [String](#string)
 * [Bloomberg](#bloomberg)
 
 #### Confusing Problems
@@ -193,6 +194,11 @@ All problems are solved in Java.
 
 #### Dynamic Programming
 1. [Longest Palindromic Substring](problems/longest-palindromic-substring.md)
+
+#### String
+1. [To Lower Case](problems/to-lower-case.md)
+2. [Unique Morse Code Words](problems/unique-morse-code-words.md)
+3. [Unique Email Addresses](problems/unique-email-addresses.md)
 
 #### Bloomberg
 1. [Two Sum](problems/two-sum.md)

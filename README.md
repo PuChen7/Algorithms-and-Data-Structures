@@ -183,6 +183,7 @@ All problems are solved in Java.
 13. [Sort Colors](problems/sort-colors.md)
 14. [Remove Duplicates from Sorted Array II](problems/remove-duplicates-from-sorted-array-ii.md)
 15. [Rotate List](problems/rotate-list.md)
+16. [Long Pressed Name](problems/long-pressed-name.md)
 
 #### Sliding Window
 1. [Permutation in String](problems/permutation-in-string.md)

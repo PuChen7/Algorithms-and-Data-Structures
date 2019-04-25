@@ -26,5 +26,5 @@ class Solution {
 }
 ```
 #### Complexity
-* Time Complexity: O(n)
-* Space Complexity: O(1)
+* Time Complexity: O(n*s) - n is the length of words array, s is length of chars
+* Space Complexity: O(n)

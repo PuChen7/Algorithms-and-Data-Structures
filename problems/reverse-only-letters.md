@@ -1,4 +1,4 @@
-# everse Only Letters - from [LeetCode](https://leetcode.com)
+# Reverse Only Letters - from [LeetCode](https://leetcode.com)
 [View this problem on LeetCode](https://leetcode.com/problems/reverse-only-letters/)
 
 ## Description

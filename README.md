@@ -202,6 +202,7 @@ All problems are solved in Java.
 3. [Unique Email Addresses](problems/unique-email-addresses.md)
 4. [Reverse Only Letters](problems/reverse-only-letters.md)
 5. [Longest Uncommon Subsequence I ](problems/longest-uncommon-subsequence-i.md)
+6. [Add Strings](problems/add-strings.md)
 
 # Greedy
 1. [Two City Scheduling](problems/two-city-scheduling.md)

@@ -201,6 +201,7 @@ All problems are solved in Java.
 2. [Unique Morse Code Words](problems/unique-morse-code-words.md)
 3. [Unique Email Addresses](problems/unique-email-addresses.md)
 4. [Reverse Only Letters](problems/reverse-only-letters.md)
+5. [Longest Uncommon Subsequence I ](problems/longest-uncommon-subsequence-i.md)
 
 # Greedy
 1. [Two City Scheduling](problems/two-city-scheduling.md)

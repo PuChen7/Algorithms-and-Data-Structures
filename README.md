@@ -204,6 +204,7 @@ All problems are solved in Java.
 5. [Longest Uncommon Subsequence I ](problems/longest-uncommon-subsequence-i.md)
 6. [Add Strings](problems/add-strings.md)
 7. [Reverse String II](problems/reverse-string-ii.md)
+8. [Construct String from Binary Tree](problems/construct-string-from-binary-tree.md)
 
 # Greedy
 1. [Two City Scheduling](problems/two-city-scheduling.md)

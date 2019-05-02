@@ -207,6 +207,7 @@ All problems are solved in Java.
 8. [Construct String from Binary Tree](problems/construct-string-from-binary-tree.md)
 9. [Most Common Word](problems/most-common-word.md)
 10. [Longest Common Prefix](problems/longest-common-prefix.md)
+11. [Repeated Substring Pattern](problems/repeated-substring-pattern.md)
 
 # Greedy
 1. [Two City Scheduling](problems/two-city-scheduling.md)

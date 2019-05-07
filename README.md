@@ -209,6 +209,7 @@ All problems are solved in Java.
 10. [Longest Common Prefix](problems/longest-common-prefix.md)
 11. [Repeated Substring Pattern](problems/repeated-substring-pattern.md)
 12. [Repeated String Match](problems/repeated-string-match.md)
+13. [Length of Last Word](problems/length-of-last-word.md)
 
 # Greedy
 1. [Two City Scheduling](problems/two-city-scheduling.md)

@@ -213,6 +213,7 @@ All problems are solved in Java.
 14. [Find and Replace Pattern](problems/find-and-replace-pattern.md)
 15. [Shifting Letters](problems/shifting-letters.md)
 16. [Palindromic Substrings](problems/palindromic-substrings.md)
+17. [Valid Palindrome II](problems/valid-palindrome-ii.md)
 
 # Greedy
 1. [Two City Scheduling](problems/two-city-scheduling.md)

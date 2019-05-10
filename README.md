@@ -211,6 +211,7 @@ All problems are solved in Java.
 12. [Repeated String Match](problems/repeated-string-match.md)
 13. [Length of Last Word](problems/length-of-last-word.md)
 14. [Find and Replace Pattern](problems/find-and-replace-pattern.md)
+15. [Shifting Letters](problems/shifting-letters.md)
 
 # Greedy
 1. [Two City Scheduling](problems/two-city-scheduling.md)

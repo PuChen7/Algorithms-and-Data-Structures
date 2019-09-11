@@ -7,9 +7,9 @@ Write a function to find the longest common prefix string amongst an array of st
 If there is no common prefix, return an empty string "".
 
 ## Thinking & Notes
-* indexOf: for each string, reduce until found
+* indexOf: for each string, reduce until found. Horizontal scan.
 
-## Solution - indexOf
+## Solution - indexOf 
 ```java
 class Solution {
     public String longestCommonPrefix(String[] strs) {
@@ -25,5 +25,5 @@ class Solution {
 }
 ```
 #### Complexity
-* Time Complexity: O(n) 
+* Time Complexity: O(n) - n is total length of all strings.
 * Space Complexity: O(1)

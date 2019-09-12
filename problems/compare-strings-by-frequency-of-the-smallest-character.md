@@ -44,8 +44,44 @@ class Solution {
 * Time Complexity: M*N*NlogN - M is the length of 'queries', N is the length of 'words', NlogN is sorting.
 * Space Complexity: O(M)
 
-### Core Algorithm & Data Sructure
+## Solution - Binary Search
+```java
+class Solution {
+    public int[] numSmallerByFrequency(String[] queries, String[] words) {
+        int[] q = new int[queries.length];
+        int[] w = new int[words.length];
+        for (int i = 0; i < q.length; i++)
+            q[i] = calculate(queries[i]);
+        for (int i = 0; i < w.length; i++)
+            w[i] = calculate(words[i]);
+        
+        int[] res = new int[queries.length];
+        
+        Arrays.sort(w);
+        for (int i = 0; i < q.length; i++){
+            int l = 0, r = w.length - 1;
+            while (l <= r){
+                int mid = (l + r) / 2;
+                if (q[i] >= w[mid]) l = mid + 1;
+                else r = mid - 1;
+            }
+            res[i] = w.length - l;
+        }
+        return res;
+    }
+    
+    private int calculate(String s){
+        int[] alpha = new int[26];
+        for (int i = 0; i < s.length(); i++){
+            alpha[s.charAt(i) - 'a'] += 1;
+        }
+        for (int i = 0; i < alpha.length; i++)
+            if (alpha[i] > 0) return alpha[i];
+        return 0;
+    }
+}
+```
 
-### More About this Algorithm & Data Structure?
-
-### Any related or similar problems?
+#### Complexity
+* Time Complexity: nlogn
+* Space Complexity: O(N+M)

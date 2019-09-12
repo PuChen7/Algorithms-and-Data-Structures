@@ -215,6 +215,7 @@ All problems are solved in Java.
 16. [Palindromic Substrings](problems/palindromic-substrings.md)
 17. [Valid Palindrome II](problems/valid-palindrome-ii.md)
 18. [Compare Strings by Frequency of the Smallest Character](problems/compare-strings-by-frequency-of-the-smallest-character.md)
+19. [Robot Return to Origin](problems/robot-return-to-origin.md)
 
 # Greedy
 1. [Two City Scheduling](problems/two-city-scheduling.md)

@@ -21,6 +21,7 @@ All algorithms should be tested and 100% correct.
 * [Patience Sort](/algorithms/patience-sort.md)
 
 ### Searching
+* [Linear Search](/algorithms/linear-search.md)
 * [Binary Search](/algorithms/binary-search.md)
 
 ### Additional

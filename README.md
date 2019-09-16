@@ -218,6 +218,7 @@ All problems are solved in Java.
 18. [Compare Strings by Frequency of the Smallest Character](problems/compare-strings-by-frequency-of-the-smallest-character.md)
 19. [Robot Return to Origin](problems/robot-return-to-origin.md)
 20. [Groups of Special-Equivalent Strings](problems/groups-of-special-equivalent-strings.md)
+21. [Count Binary Substrings](problems/count-binary-substrings.md)
 
 # Greedy
 1. [Two City Scheduling](problems/two-city-scheduling.md)

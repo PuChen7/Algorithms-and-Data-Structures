@@ -219,6 +219,7 @@ All problems are solved in Java.
 19. [Robot Return to Origin](problems/robot-return-to-origin.md)
 20. [Groups of Special-Equivalent Strings](problems/groups-of-special-equivalent-strings.md)
 21. [Count Binary Substrings](problems/count-binary-substrings.md)
+22. [Detect Capital](problems/detect-capital.md)
 
 # Greedy
 1. [Two City Scheduling](problems/two-city-scheduling.md)

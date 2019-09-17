@@ -221,6 +221,7 @@ All problems are solved in Java.
 21. [Count Binary Substrings](problems/count-binary-substrings.md)
 22. [Detect Capital](problems/detect-capital.md)
 23. *[Find K-Length Substrings With No Repeated Characters](problems/find-k-length-substrings-with-no-repeated-characters.md)
+24. [Complex Number Multiplication](problems/complex-number-multiplication.md)
 
 # Greedy
 1. [Two City Scheduling](problems/two-city-scheduling.md)

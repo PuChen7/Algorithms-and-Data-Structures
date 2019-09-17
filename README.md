@@ -222,6 +222,7 @@ All problems are solved in Java.
 22. [Detect Capital](problems/detect-capital.md)
 23. *[Find K-Length Substrings With No Repeated Characters](problems/find-k-length-substrings-with-no-repeated-characters.md)
 24. [Complex Number Multiplication](problems/complex-number-multiplication.md)
+25. [Score of Parentheses](problems/score-of-parentheses.md)
 
 # Greedy
 1. [Two City Scheduling](problems/two-city-scheduling.md)

@@ -224,6 +224,7 @@ All problems are solved in Java.
 24. [Complex Number Multiplication](problems/complex-number-multiplication.md)
 25. [Score of Parentheses](problems/score-of-parentheses.md)
 26. [Binary String With Substrings Representing 1 To N](problems/binary-string-with-substrings-representing-1-to-n.md)
+27. [Check If Word Is Valid After Substitutions](problems/check-if-word-is-valid-after-substitutions.md)
 
 # Greedy
 1. [Two City Scheduling](problems/two-city-scheduling.md)

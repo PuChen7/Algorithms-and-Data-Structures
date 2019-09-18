@@ -13,6 +13,8 @@ Return true if and only if the given string S is valid.
 ## Thinking & Notes
 * Brute force: Using `replace()` to keep replace `abc` with `""`. If the string is valid, then the final string after replace will be empty.
 
+* Stack: we can observe a pattern: `everyting we see a letter 'c', there must be a 'b' before 'c', and 'a' before 'b'.` To use this pattern, we can keep a stack, everyting we see `c`, pop and check if it's 'b', pop again see if it's 'a'.
+
 ## Solution - Brute force
 ```java
 class Solution {

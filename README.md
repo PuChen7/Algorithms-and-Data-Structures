@@ -225,6 +225,7 @@ All problems are solved in Java.
 25. [Score of Parentheses](problems/score-of-parentheses.md)
 26. [Binary String With Substrings Representing 1 To N](problems/binary-string-with-substrings-representing-1-to-n.md)
 27. [Check If Word Is Valid After Substitutions](problems/check-if-word-is-valid-after-substitutions.md)
+28. [Find And Replace in String](problems/find-and-replace-in-string.md)
 
 # Greedy
 1. [Two City Scheduling](problems/two-city-scheduling.md)

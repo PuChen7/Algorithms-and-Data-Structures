@@ -12,6 +12,8 @@ Given a balanced parentheses string S, compute the score of the string based on 
 `notice: the string of parentheses comes as balanced`. When we see an opening bracket, we increase our depth, 
 and our score at the new depth is 0. When we see a closing bracket, we add twice the score of the previous deeper part
 
+- Array: exactly same idea with `Stack`.
+
 - Count layers: The final sum will be a sum of powers of 2, as every core (a substring (), with score 1) 
 will have it's score multiplied by 2 for each exterior set of parentheses that contains that core.
 
@@ -35,6 +37,28 @@ class Solution {
             }
         }
         return stack.pop();
+    }
+}
+```
+#### Complexity
+* Time Complexity: O(n) - n is the length of string 
+* Space Complexity: O(n) - n is the size of stack
+
+## Solution - Array
+```java
+class Solution {
+    public int scoreOfParentheses(String S) {
+        int[] scores = new int[30];
+        int i = 0;
+        for (char c : S.toCharArray()){
+            if (c == '('){
+                i++;
+                scores[i] = 0; 
+            } else {
+                scores[i-1] += Math.max(scores[i--] * 2, 1);
+            }
+        }
+        return scores[0];
     }
 }
 ```

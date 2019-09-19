@@ -228,6 +228,7 @@ All problems are solved in Java.
 27. [Check If Word Is Valid After Substitutions](problems/check-if-word-is-valid-after-substitutions.md)
 28. [Find And Replace in String](problems/find-and-replace-in-string.md)
 29. [Swap For Longest Repeated Character Substring](problems/swap-for-longest-repeated-character-substring.md)
+30. [Smallest Subsequence of Distinct Characters](problems/smallest-subsequence-of-distinct-characters.md)
 
 # Greedy
 1. [Two City Scheduling](problems/two-city-scheduling.md)

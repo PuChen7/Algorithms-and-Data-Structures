@@ -31,6 +31,7 @@ All algorithms should be tested and 100% correct.
 This is a collection of algorithm problems which can be taken as a preparation for coding interviews. 
 All questions are picked out from various resources such as [Leetcode](https://leetcode.com). 
 All problems are solved in Java.
+* [Notes](notes.md)
 
 ### Content
 * [Confusing Problems](#confusing-problems)

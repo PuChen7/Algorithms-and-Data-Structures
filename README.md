@@ -229,6 +229,7 @@ All problems are solved in Java.
 28. [Find And Replace in String](problems/find-and-replace-in-string.md)
 29. [Swap For Longest Repeated Character Substring](problems/swap-for-longest-repeated-character-substring.md)
 30. [Smallest Subsequence of Distinct Characters](problems/smallest-subsequence-of-distinct-characters.md)
+31. [Word Subsets](problems/word-subsets.md)
 
 # Greedy
 1. [Two City Scheduling](problems/two-city-scheduling.md)

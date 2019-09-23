@@ -7,6 +7,8 @@ Given two words word1 and word2, find the minimum number of steps required to ma
 ## Thinking & Notes
 * Longest Common SubString
 * Longest Common SubString - Dynamic Programming
+  * same idea, but without using recursion. The key is to fill up 2-d array to find the longest common sub.
+  * the reason why `int[][] path = new int[word1.length()+1][word2.length()+1];` the `length + 1` is because we need to compare all chars, the first char cannot use the same array cell. see detail at Solution in leetcode.
 
 ## Solution - Longest Common SubString
 ```java

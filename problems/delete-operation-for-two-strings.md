@@ -6,6 +6,7 @@ Given two words word1 and word2, find the minimum number of steps required to ma
 
 ## Thinking & Notes
 * Longest Common SubString
+* Longest Common SubString - Dynamic Programming
 
 ## Solution - Longest Common SubString
 ```java
@@ -28,6 +29,28 @@ class Solution {
         else 
             path[m][n] = Math.max(longestCommonSub(s1, s2, path, m - 1, n), longestCommonSub(s1, s2, path, m, n - 1));
         return path[m][n];
+    }
+}
+```
+#### Complexity
+* Time Complexity: O(m*n)
+* Space Complexity: O(m*n)
+
+## Solution - Longest Common SubString - Dynamic Programming
+```java
+class Solution {
+    public int minDistance(String word1, String word2) {
+        int[][] path = new int[word1.length()+1][word2.length()+1];
+        for (int i = 0; i <= word1.length(); i++){
+            for (int j = 0; j <= word2.length(); j++){
+                if (i == 0 || j == 0) continue; 
+                if (word1.charAt(i-1) == word2.charAt(j-1))
+                    path[i][j] = 1 + path[i-1][j-1];
+                else
+                    path[i][j] = Math.max(path[i-1][j], path[i][j-1]);
+            }
+        }
+        return word1.length() + word2.length() - (2 * path[word1.length()][word2.length()]);
     }
 }
 ```

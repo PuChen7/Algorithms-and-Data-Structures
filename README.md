@@ -47,6 +47,9 @@ All problems are solved in Java.
 * [Greedy](#greedy)
 * [Bloomberg](#bloomberg)
 
+#### Useful sub-problems
+* [Get all subsequence of a String](problems/get-all-subsequence-of-a-string.md)
+
 #### Confusing Problems
 1. [Contiguous Array](problems/contiguous-array.md)
 2. [Find All Anagrams in a String](problems/find-all-anagrams-in-a-string.md) - Using Sliding Window

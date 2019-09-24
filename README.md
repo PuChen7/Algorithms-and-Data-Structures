@@ -235,6 +235,7 @@ All problems are solved in Java.
 31. [Word Subsets](problems/word-subsets.md)
 32. [Delete Operation for Two Strings](problems/delete-operation-for-two-strings.md)
 33. [Longest Uncommon Subsequence II](problems/longest-uncommon-subsequence-ii.md)
+34. [Reorganize String](problems/reorganize-string.md)
 
 # Greedy
 1. [Two City Scheduling](problems/two-city-scheduling.md)

@@ -11,7 +11,7 @@ If possible, output any possible result.  If not possible, return the empty stri
   - the key is what pattern will make adjacent letter never touch: `axaxaxax...`
   - fill even first with most frequent letter
   - then fill odd with all other letters
-* PriorityQueue
+* PriorityQueue : `the key is we can take first two most frequent char, and make them char by char.`
   - the key is using pq to sort char by count in descending order. 
   - poll first highest two, and append to sb
   - if count > 0, count - 1, then add back to queue

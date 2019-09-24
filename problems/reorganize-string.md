@@ -61,25 +61,27 @@ class Solution {
 ```java
 class Solution {
     public String reorganizeString(String S) {
+    // still need to count letters
         int[] countLetter = new int[26];
         for (char c : S.toCharArray()) countLetter[c - 'a']++;
         
+        // use pq, sort in descending order
         PriorityQueue<Node> pq = new PriorityQueue<>((a,b) -> b.count - a.count);
         for (int i = 0; i < countLetter.length; i++){
-            if (countLetter[i] > (S.length() + 1) / 2) return "";
-            if (countLetter[i] > 0) pq.add(new Node(countLetter[i], (char) (i + 'a')));
+            if (countLetter[i] > (S.length() + 1) / 2) return ""; // impossible case
+            if (countLetter[i] > 0) pq.add(new Node(countLetter[i], (char) (i + 'a'))); // count and char
         }
         
         StringBuilder sb = new StringBuilder();
-        while (pq.size() >= 2){
-            Node n1 = pq.poll();
+        while (pq.size() >= 2){ // if even number of letters, nothing left, if odd number, will add last one later
+            Node n1 = pq.poll();  // take first two highest
             Node n2 = pq.poll();
-            sb.append(n1.c);
+            sb.append(n1.c);  // append char
             sb.append(n2.c);
-            if (--n1.count > 0) pq.add(n1);
+            if (--n1.count > 0) pq.add(n1); // minus one count, then put it back
             if (--n2.count > 0) pq.add(n2);
         }
-        if (!pq.isEmpty()) sb.append(pq.poll().c);
+        if (!pq.isEmpty()) sb.append(pq.poll().c);  // if odd number of letters, add last one
         return sb.toString();
     }
 }

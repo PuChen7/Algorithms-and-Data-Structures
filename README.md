@@ -236,6 +236,7 @@ All problems are solved in Java.
 32. [Delete Operation for Two Strings](problems/delete-operation-for-two-strings.md)
 33. [Longest Uncommon Subsequence II](problems/longest-uncommon-subsequence-ii.md)
 34. [Reorganize String](problems/reorganize-string.md)
+35. [Split Array into Fibonacci Sequence](problems/split-array-into-fibonacci-sequence.md)
 
 # Greedy
 1. [Two City Scheduling](problems/two-city-scheduling.md)

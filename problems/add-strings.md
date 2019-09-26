@@ -5,6 +5,7 @@
 Given two non-negative integers num1 and num2 represented as string, return the sum of num1 and num2.
 
 ## Thinking & Notes
+* If we do it by adding one by one, we cannot solve integer overflow problem. we have to add and then immediately append to stringbuilder.
 * Iteration: iterate through both string. Similar to [Add Two Numbers](add-two-numbers.md)
 
 ## Solution - Iteration

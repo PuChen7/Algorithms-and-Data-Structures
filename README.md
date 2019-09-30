@@ -239,6 +239,7 @@ All problems are solved in Java.
 35. [Split Array into Fibonacci Sequence](problems/split-array-into-fibonacci-sequence.md)
 36. [Multiply Strings](problems/multiply-strings.md)
 37. [Rotated Digits](problems/rotated-digits.md)
+38. [Camelcase Matching](problems/camelcase-matching.md)
 
 # Greedy
 1. [Two City Scheduling](problems/two-city-scheduling.md)

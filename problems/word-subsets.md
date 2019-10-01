@@ -19,6 +19,9 @@ class Solution {
     public List<String> wordSubsets(String[] A, String[] B) {
         // we can form B into one single word (for every two b, count the most frequent letters)
         // so the problem reduced to how to find if word a contains all letters from b
+        // the key idea is form B to one single string
+        // by couting max, only count max count for each b
+        // take example: A["abeo"] and B["ae","ao"], A is super set of B, only need count one 'a'
         int[] bmax = new int[26];
         for (String b : B){
             int[] countb = count(b);

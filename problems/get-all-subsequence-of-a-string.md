@@ -1,15 +1,13 @@
 # Get all subsequence of a String
 
 ```java
-public static Set<String> getSubseqs(String s) {
-    Set<String> res = new HashSet<>();
-    if (s.length() == 0) {
-         res.add("");
-         return res;
+public List<String> subString(String s) {
+    List<String> sub = new ArrayList<>();
+    for (int i = 0; i < s.length(); i++){
+       for (int j = i+1; j <= s.length(); j++){
+            sub.add(s.substring(i, j));
+        } 
     }
-    Set<String> subRes = getSubseqs(s.substring(1));
-    res.addAll(subRes);
-    for (String seq : subRes) res.add(s.charAt(0) + seq);
-    return res;
-}
+    return sub;
+} 
 ```

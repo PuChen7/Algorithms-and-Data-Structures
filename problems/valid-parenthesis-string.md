@@ -23,6 +23,10 @@
   - 
   - if high < 0 means too much ')'
   - if low > 0 , after the count finished, means too much '('
+  
+* Backtracking
+    - How to check valid parenthesis w/ only ( and )? Easy. Count each char from left to right. When we see (, count++; when we see ) count--; if count < 0, it is invalid () is more than (); At last, count should == 0.
+    - This problem added `*`. The easiest way is to try 3 possible ways when we see it. Return true if one of them is valid.
 
 ## Solution - Linear Scan
 ```java
@@ -48,4 +52,32 @@ class Solution {
 ```
 #### Complexity
 * Time Complexity: O(n)
+* Space Complexity: O(1)
+
+## Solution - Backtracking
+```java
+class Solution {
+    public boolean checkValidString(String s) {
+        return check(s, 0, 0);
+    }
+    
+    private boolean check(String s, int start, int count){
+        if (count < 0) return false;
+        for (int i = start; i < s.length(); i++){
+            if (s.charAt(i) == '('){
+                count++;
+            } else if (s.charAt(i) == ')'){
+                if (count <= 0) return false;
+                count--;
+            } else if (s.charAt(i) == '*') {
+                // three cases: '(' || "" || ')'
+                return check(s, i+1, count+1) || check(s, i + 1, count) || check(s, i + 1, count - 1);
+            }
+        }
+        return count == 0;
+    }
+}
+```
+#### Complexity
+* Time Complexity: O(3^n)
 * Space Complexity: O(1)

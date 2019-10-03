@@ -13,7 +13,7 @@
 ## Thinking & Notes
 * Linear Scan:
   - first, think of different `cases`, for example: `((*)`
-    - `*` can be treated as two cases: `(` and `)`.
+    - `*` can be treated as three cases: `(` and `)` and `""`.
     - so in this thinking, we can keep two counts to keep track of two cases.
       - when we see a `*`, we go two ways
         1. `((()`

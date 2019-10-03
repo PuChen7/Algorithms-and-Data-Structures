@@ -77,6 +77,29 @@ class Solution {
         return count == 0;
     }
 }
+
+/************************** Without using for loop *********************************/
+
+class Solution {
+    public boolean checkValidString(String s) {
+        return check(s, 0, 0);
+    }
+    
+    private boolean check(String s, int start, int count){
+        if (start == s.length())
+            return count == 0;
+        
+        if (count < 0) return false;
+        if (s.charAt(start) == '('){
+            return check(s, start+1, count+1);
+        } else if (s.charAt(start) == ')'){
+            return check(s, start+1, count-1);
+        } else {    // this is a * 
+            // three cases: '(' || "" || ')'
+            return check(s, start+1, count+1) || check(s, start + 1, count) || check(s, start + 1, count - 1);
+        }
+    }
+}
 ```
 #### Complexity
 * Time Complexity: O(3^n)

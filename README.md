@@ -240,6 +240,7 @@ All problems are solved in Java.
 36. [Multiply Strings](problems/multiply-strings.md)
 37. [Rotated Digits](problems/rotated-digits.md)
 38. [Camelcase Matching](problems/camelcase-matching.md)
+39. [Alphabet Board Path](problems/alphabet-board-path.md)
 
 # Greedy
 1. [Two City Scheduling](problems/two-city-scheduling.md)

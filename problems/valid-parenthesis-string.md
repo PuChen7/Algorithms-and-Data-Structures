@@ -28,6 +28,17 @@
     - How to check valid parenthesis w/ only ( and )? Easy. Count each char from left to right. When we see (, count++; when we see ) count--; if count < 0, it is invalid () is more than (); At last, count should == 0.
     - This problem added `*`. The easiest way is to try 3 possible ways when we see it. Return true if one of them is valid.
 
+* Stack:
+ - The basic idea is to track the index of the left bracket and star position.
+Push all the indices of the star and left bracket to their stack respectively.
+STEP 1: Once a right bracket comes, pop left bracket stack first if it is not empty. If the left bracket stack is empty, pop the star stack if it is not empty. A false return can be made provided that both stacks are empty.
+
+ - STEP 2: Now attention is paid to the remaining stuff in these two stacks. Note that the left bracket CANNOT appear after the star as there is NO way to balance the bracket. In other words, whenever there is a left bracket index appears after the Last star, a false statement can be made. Otherwise, pop out each from the left bracket and star stack.
+
+ - STEP 3: A correct sequence should have an empty left bracket stack. You don't need to take care of the star stack.
+
+- Final Remarks: Greedy algorithm is used here. We always want to use left brackets to balance the right one first as the * symbol is a wild card. There is probably an O(1) space complexity but I think this is worth mentioning.
+
 ## Solution - Linear Scan
 ```java
 class Solution {
@@ -104,3 +115,29 @@ class Solution {
 #### Complexity
 * Time Complexity: O(3^n)
 * Space Complexity: O(1)
+
+## Solution - Stack
+```java
+class Solution {
+    public boolean checkValidString(String s) {
+        Stack<Integer> star = new Stack<>();
+        Stack<Integer> left = new Stack();
+        for (int i = 0; i < s.length(); i++){
+            if (s.charAt(i) == '(') left.push(i);
+            else if (s.charAt(i) == '*') star.push(i);
+            else {
+                if (star.isEmpty() && left.isEmpty()) return false;
+                else if (!left.isEmpty()) left.pop();
+                else star.pop();
+            }
+        }
+        
+        while (!star.isEmpty() && !left.isEmpty())
+            if (left.pop() > star.pop()) return false;
+        return left.isEmpty();
+    }
+}
+```
+#### Complexity
+* Time Complexity: O(n)
+* Space Complexity: O(m+k) - two stacks

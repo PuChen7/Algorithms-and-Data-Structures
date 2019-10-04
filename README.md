@@ -241,6 +241,7 @@ All problems are solved in Java.
 37. [Rotated Digits](problems/rotated-digits.md)
 38. [Camelcase Matching](problems/camelcase-matching.md)
 39. [Alphabet Board Path](problems/alphabet-board-path.md)
+40. [Valid Parenthesis String](problems/valid-parenthesis-string.md)
 
 # Greedy
 1. [Two City Scheduling](problems/two-city-scheduling.md)

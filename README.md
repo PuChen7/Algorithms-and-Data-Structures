@@ -200,6 +200,7 @@ All problems are solved in Java.
 
 #### Dynamic Programming
 1. [Longest Palindromic Substring](problems/longest-palindromic-substring.md)
+2. [Min Cost Climbing Stairs](problems/min-cost-climbing-stairs.md)
 
 #### String
 1. [To Lower Case](problems/to-lower-case.md)

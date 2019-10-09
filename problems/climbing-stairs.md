@@ -17,6 +17,14 @@ Note: Given n will be a positive integer.
 * Brute force with mem
   - we can keep an array to store visited steps. Just need to fill array, and then the last index is the res.
   
+  * DP
+  - One can reach i step in one of the two ways:
+    - Taking a `single` step from (i−1) step.
+    - Taking a step of `2` from (i−2) step.
+  - So, the total number of ways to reach i is equal to sum of ways of reaching (i−1) step and ways of reaching (i−2) step.
+  - Let `dp[i]` denotes the number of ways to reach on `i` step:
+  - `dp[i]=dp[i−1]+dp[i−2]`
+  
 ## Solution - Brute force (Time Limit Exceeded)
 ```java
 class Solution {
@@ -53,6 +61,25 @@ class Solution {
     }
     // why O(n)? because everytime we see if mem[i] is already filled. This prevent extra recursion.
     // just need to fill the array
+}
+```
+#### Complexity
+* Time Complexity: O(n)
+* Space Complexity: O(n)
+
+## Solution - DP
+```java
+class Solution {
+    public int climbStairs(int n) {
+        if (n == 1) return 1;
+        int[] dp = new int[n + 1];
+        dp[1] = 1;
+        dp[2] = 2;
+        for (int i = 3; i <= n; i++){
+            dp[i] = dp[i - 1] + dp[i - 2];
+        }
+        return dp[n];
+    }
 }
 ```
 #### Complexity

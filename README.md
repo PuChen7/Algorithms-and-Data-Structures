@@ -202,6 +202,7 @@ All problems are solved in Java.
 1. [Longest Palindromic Substring](problems/longest-palindromic-substring.md)
 2. [Min Cost Climbing Stairs](problems/min-cost-climbing-stairs.md)
 3. [Climbing Stairs](problems/climbing-stairs.md)
+4. [Counting Bits](problems/counting-bits.md)
 
 #### String
 1. [To Lower Case](problems/to-lower-case.md)

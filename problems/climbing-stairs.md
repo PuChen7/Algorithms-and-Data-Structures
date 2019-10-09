@@ -18,12 +18,12 @@ Note: Given n will be a positive integer.
   - we can keep an array to store visited steps. Just need to fill array, and then the last index is the res.
   
 * DP
-- One can reach i step in one of the two ways:
-  - Taking a `single` step from (i−1) step.
-  - Taking a step of `2` from (i−2) step.
-- So, the total number of ways to reach i is equal to sum of ways of reaching (i−1) step and ways of reaching (i−2) step.
-- Let `dp[i]` denotes the number of ways to reach on `i` step:
-- `dp[i]=dp[i−1]+dp[i−2]`
+  - One can reach i step in one of the two ways:
+    - Taking a `single` step from (i−1) step.
+    - Taking a step of `2` from (i−2) step.
+  - So, the total number of ways to reach i is equal to sum of ways of reaching (i−1) step and ways of reaching (i−2) step.
+  - Let `dp[i]` denotes the number of ways to reach on `i` step:
+  - `dp[i]=dp[i−1]+dp[i−2]`
   
 ## Solution - Brute force (Time Limit Exceeded)
 ```java

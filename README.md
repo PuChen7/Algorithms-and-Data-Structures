@@ -204,6 +204,7 @@ All problems are solved in Java.
 2. [Min Cost Climbing Stairs](problems/min-cost-climbing-stairs.md)
 3. [Climbing Stairs](problems/climbing-stairs.md)
 4. *[Counting Bits](problems/counting-bits.md)
+5. [House Robber](problems/house-robber.md)
 
 #### String
 1. [To Lower Case](problems/to-lower-case.md)

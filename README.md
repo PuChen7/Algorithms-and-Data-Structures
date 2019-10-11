@@ -49,6 +49,7 @@ All problems are solved in Java.
 
 #### Useful sub-problems
 * [Get all subsequence of a String](problems/get-all-subsequence-of-a-string.md)
+* [How to approach to DP problems](problems/dp-approach.md)
 
 #### Confusing Problems
 1. [Contiguous Array](problems/contiguous-array.md)

@@ -7,12 +7,14 @@ Given two strings text1 and text2, return the length of their longest common sub
 A subsequence of a string is a new string generated from the original string with some characters(can be none) deleted without changing the relative order of the remaining characters. (eg, "ace" is a subsequence of "abcde" while "aec" is not). A common subsequence of two strings is a subsequence that is common to both strings.
 
 ## Thinking & Notes
-* DP Brute force:
+* Brute force:
   - try all combinations, if char not match, go further 2 options, each string move one char.
   - this approach is used in [Delete Operation for Two Strings](delete-operation-for-two-strings.md)
+* DP with Mem
+  - same idea with [Delete Operation for Two Strings](delete-operation-for-two-strings.md)
+  - use 2-d array to store visited pair
 
-
-## Solution - DP Brute force - Time Limit Exceeded
+## Solution - Brute force - Time Limit Exceeded
 ```java
 class Solution {
     public int longestCommonSubsequence(String text1, String text2) {

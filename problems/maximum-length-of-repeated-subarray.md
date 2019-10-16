@@ -19,20 +19,21 @@ Output: 3
 for each index in map ArrayList, start from the first index in list, check if B[index] == A[index]. update length.
 Time: O(M∗N∗min⁡(M,N)) M,N -> length of array A and B.
 
-* Dynamic Programming: core concept: `Whenever A[i] == B[j], we know dp[i][j] = dp[i+1][j+1] + 1`. 
+* Dynamic Programming: Same idea with [Longest Common Subsequence](longest-common-subsequence.md)
+. core concept: `Whenever A[i] == B[j], we know dp[i][j] = dp[i+1][j+1] + 1`. 
 This is because the position of each number in both array is adjacent.
 
 ## Solution - DP
 ```java
 class Solution {
     public int findLength(int[] A, int[] B) {
+        int[][] mem = new int[A.length + 1][B.length + 1];
         int res = 0;
-        int[][] dp = new int[A.length+1][B.length+1];
-        for (int i = A.length-1; i >= 0; i--){
-            for (int j = B.length-1; j >= 0; j--){
+        for (int i = 0; i < A.length; i++){
+            for (int j = 0; j < B.length; j++){
                 if (A[i] == B[j]){
-                    dp[i][j] = dp[i+1][j+1] + 1;
-                    if (res < dp[i][j]) res = dp[i][j];
+                    mem[i+1][j+1] = 1 + mem[i][j];
+                    res = Math.max(res, mem[i+1][j+1]);
                 }
             }
         }
@@ -50,3 +51,4 @@ class Solution {
 
 ### Any related or similar problems?
 * [Minimum Size Subarray Sum](minimum-size-subarray-sum.md)
+* [Longest Common Subsequence](longest-common-subsequence.md)

@@ -209,6 +209,7 @@ All problems are solved in Java.
 5. [House Robber](problems/house-robber.md)
 6. [House Robber II](problems/house-robber-ii.md)
 7. [Longest Common Subsequence](problems/longest-common-subsequence.md)
+8. [Longest String Chain](problems/longest-string-chain.md)
 
 #### String
 1. [To Lower Case](problems/to-lower-case.md)

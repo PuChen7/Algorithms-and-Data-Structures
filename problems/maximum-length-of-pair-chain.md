@@ -17,7 +17,7 @@ Given a set of pairs, find the length longest chain which can be formed. You nee
 * Greedy
   - note: the `sort` is different, dp sort by `first val`, greedy sort by `second val`
 
-## Solution - Greedy
+## Solution - DP
 ```java
 class Solution {
     public int findLongestChain(int[][] pairs) {
@@ -41,7 +41,7 @@ class Solution {
 * Time Complexity: O(n^2)
 * Space Complexity: O(n)
 
-## Solution - DP
+## Solution - Greedy
 ```java
 class Solution {
     public int findLongestChain(int[][] pairs) {

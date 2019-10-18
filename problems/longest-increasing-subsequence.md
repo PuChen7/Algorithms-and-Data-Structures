@@ -5,8 +5,35 @@
 Given an unsorted array of integers, find the length of longest increasing subsequence.
 
 ## Thinking & Notes
+* Brute Force: 
+    - consider two cases:
+        - include current position
+        - not include current position
 * Dynamic Programming: use an array to store current longest subarray at each index.
 * Binary Search: use `patience sort` to form tails.
+
+## Solution - Brute Force - TLE
+```java
+class Solution {
+    public int lengthOfLIS(int[] nums) {
+        return helper(nums, 0, Integer.MIN_VALUE);
+    }
+    
+    private int helper(int[] nums, int curr, int prev){
+        if (curr == nums.length) return 0;
+        int include = 0;
+        if (nums[curr] > prev)
+            include = 1 + helper(nums, curr+1, nums[curr]);
+        int exclude = helper(nums, curr + 1, prev);
+        return Math.max(include, exclude);
+    }
+}
+```
+### Complexity
+* Time Complexity: O(2^n)
+* Space Complexity: O(n) 
+    * why space complexity is O(n)?
+        - Our memory complexity is determined by the number of return statements because each function call will be stored on the program stack. To generalize, a recursive function's memory complexity is O(recursion depth). As our tree depth suggests, we will have n total return statements and thus the memory complexity is O(n).
 
 ## Solution - Dynamic Programming
 ```java

@@ -10,6 +10,9 @@ Given an unsorted array of integers, find the length of longest increasing subse
         - include current position
         - not include current position
 * Dynamic Programming: use an array to store current longest subarray at each index.
+    - take each digit as the end of the sequence, find the longest subsequence of current sequence.
+    - only update if the previous +1 is greater
+        - if not greater, it means at this index, this number (a) has at least 1 number (b) that `b > a` which doesn't satisfy increasing order, so it doesn't update. 
 * Binary Search: use `patience sort` to form tails.
 
 ## Solution - Brute Force - TLE

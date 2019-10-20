@@ -14,3 +14,4 @@
 8. [Longest String Chain](problems/longest-string-chain.md)
 9. [Maximum Length of Pair Chain](problems/maximum-length-of-pair-chain.md)
 10. [Longest Increasing Subsequence](problems/longest-increasing-subsequence.md)
+11. [Longest Palindromic Subsequence](problems/longest-palindromic-substring.md)

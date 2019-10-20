@@ -211,6 +211,8 @@ All problems are solved in Java.
 7. [Longest Common Subsequence](problems/longest-common-subsequence.md)
 8. [Longest String Chain](problems/longest-string-chain.md)
 9. [Maximum Length of Pair Chain](problems/maximum-length-of-pair-chain.md)
+10. [Longest Increasing Subsequence](problems/longest-increasing-subsequence.md)
+11. [Longest Palindromic Subsequence](problems/longest-palindromic-substring.md)
 
 #### String
 1. [To Lower Case](problems/to-lower-case.md)
